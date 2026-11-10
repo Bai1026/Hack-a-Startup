@@ -1,0 +1,47 @@
+{
+ "case_id": "B-3117",
+ "title": "Medical necessity appeal: home health after hip fracture surgery",
+ "scenario": "gap_with_alternative_basis",
+ "demo_role": "hero",
+ "one_line": "Denied for missing homebound documentation; the record supports a different policy pathway instead.",
+ "patient": {
+  "name": "Eleanor J. Kowalczyk",
+  "dob": "1955-05-02",
+  "member_id": "ALD-602-118-394"
+ },
+ "payer": "Alderpoint Health Plan",
+ "provider": "Fairmount Valley Medical Center",
+ "service_requested": "Home health: skilled nursing (12 visits) and physical therapy (18 visits) over a 60-day episode",
+ "key_dates": {
+  "request": "2026-10-01",
+  "denial": "2026-10-05",
+  "appeal_deadline": "2027-04-03"
+ },
+ "documents": [
+  {
+   "doc_id": "DL",
+   "file": "denial_letter.pdf",
+   "title": "Denial letter",
+   "pages": 1,
+   "lines_file": "lines/denial_letter.lines.json",
+   "text_file": "text/denial_letter.lined.txt"
+  },
+  {
+   "doc_id": "POL",
+   "file": "policy.pdf",
+   "title": "Payer policy MP-HH-007",
+   "pages": 1,
+   "lines_file": "lines/policy.lines.json",
+   "text_file": "text/policy.lined.txt"
+  },
+  {
+   "doc_id": "CR",
+   "file": "clinical_record.pdf",
+   "title": "Clinical record",
+   "pages": 8,
+   "lines_file": "lines/clinical_record.lines.json",
+   "text_file": "text/clinical_record.lined.txt"
+  }
+ ],
+ "synthetic": true
+}

@@ -1,0 +1,696 @@
+{
+ "schema_version": "1.0",
+ "case_id": "A-2048",
+ "generated_by": "gold",
+ "documents": [
+  {
+   "doc_id": "DL",
+   "file": "denial_letter.pdf",
+   "title": "Denial letter",
+   "pages": 1,
+   "lines_file": "lines/denial_letter.lines.json",
+   "text_file": "text/denial_letter.lined.txt"
+  },
+  {
+   "doc_id": "POL",
+   "file": "policy.pdf",
+   "title": "Payer policy MP-RX-014",
+   "pages": 1,
+   "lines_file": "lines/policy.lines.json",
+   "text_file": "text/policy.lined.txt"
+  },
+  {
+   "doc_id": "CR",
+   "file": "clinical_record.pdf",
+   "title": "Clinical record",
+   "pages": 5,
+   "lines_file": "lines/clinical_record.lines.json",
+   "text_file": "text/clinical_record.lined.txt"
+  }
+ ],
+ "denial": {
+  "reason_text": "Insufficient documentation of prior treatment failure.",
+  "category": "step_therapy",
+  "source": {
+   "doc_id": "DL",
+   "page": 1,
+   "line_start": 12,
+   "line_end": 12,
+   "rects": [
+    [
+     76.0,
+     304.24,
+     303.88,
+     316.04
+    ]
+   ]
+  },
+  "policy_ref": {
+   "policy_id": "MP-RX-014",
+   "title": "CGRP Antagonists for Migraine Prevention",
+   "clause": "§3.1",
+   "source": {
+    "doc_id": "DL",
+    "page": 1,
+    "line_start": 16,
+    "line_end": 16,
+    "rects": [
+     [
+      76.0,
+      377.12,
+      496.71,
+      388.92
+     ]
+    ]
+   }
+  }
+ },
+ "bases": [
+  {
+   "basis_id": "STATED",
+   "kind": "stated",
+   "title": "Initial authorization criteria",
+   "clause": "§3.1",
+   "policy_source": {
+    "doc_id": "POL",
+    "page": 1,
+    "line_start": 10,
+    "line_end": 11,
+    "rects": [
+     [
+      76.0,
+      252.56,
+      497.84,
+      264.36
+     ],
+     [
+      76.0,
+      266.16,
+      133.81,
+      277.96
+     ]
+    ]
+   },
+   "requirements": [
+    {
+     "req_id": "R1",
+     "clause": "§3.1(a)",
+     "text": "Migraine diagnosis with at least 4 migraine days per month in each of the 3 months before the request",
+     "policy_source": {
+      "doc_id": "POL",
+      "page": 1,
+      "line_start": 12,
+      "line_end": 13,
+      "rects": [
+       [
+        107.0,
+        282.76,
+        536.08,
+        294.56
+       ],
+       [
+        92.0,
+        296.36,
+        211.51,
+        308.16
+       ]
+      ]
+     },
+     "policy_text": "The member has a diagnosis of migraine with at least 4 migraine days per month in each of the 3 months before the request.",
+     "facets": [
+      "diagnosis",
+      "frequency"
+     ],
+     "status": "supported",
+     "evidence": [
+      {
+       "evidence_id": "R1-E1",
+       "source": {
+        "doc_id": "CR",
+        "page": 2,
+        "line_start": 12,
+        "line_end": 12,
+        "rects": [
+         [
+          76.0,
+          283.28,
+          297.19,
+          295.08
+         ]
+        ]
+       },
+       "quote": "Episodic migraine without aura (ICD-10 G43.009).",
+       "key_phrases": [
+        {
+         "text": "Episodic migraine without aura",
+         "facet": "diagnosis",
+         "rects": [
+          [
+           76.0,
+           283.28,
+           212.16,
+           295.08
+          ]
+         ]
+        }
+       ],
+       "rationale": "Neurologist's documented diagnosis."
+      },
+      {
+       "evidence_id": "R1-E2",
+       "source": {
+        "doc_id": "CR",
+        "page": 5,
+        "line_start": 4,
+        "line_end": 5,
+        "rects": [
+         [
+          395.59,
+          149.48,
+          541.22,
+          161.28
+         ],
+         [
+          76.0,
+          163.08,
+          363.38,
+          174.88
+         ]
+        ]
+       },
+       "quote": "Headache diary for June through August 2026: 7 migraine days in June, 8 in July, and 9 in August.",
+       "key_phrases": [
+        {
+         "text": "7 migraine days in June",
+         "facet": "frequency",
+         "rects": [
+          [
+           137.71,
+           163.08,
+           243.31,
+           174.88
+          ]
+         ]
+        },
+        {
+         "text": "8 in July",
+         "facet": "frequency",
+         "rects": [
+          [
+           248.87,
+           163.08,
+           285.55,
+           174.88
+          ]
+         ]
+        },
+        {
+         "text": "9 in August",
+         "facet": "frequency",
+         "rects": [
+          [
+           310.57,
+           163.08,
+           360.6,
+           174.88
+          ]
+         ]
+        }
+       ],
+       "rationale": "June, July and August are the 3 months before the 09/15/2026 request; each has at least 4 migraine days."
+      }
+     ],
+     "near_misses": [],
+     "quantity_check": {
+      "label": "Lowest monthly migraine days, June to August 2026",
+      "comparator": ">=",
+      "required": 4,
+      "found": 7,
+      "unit": "migraine days per month",
+      "passed": true,
+      "evidence_id": "R1-E2"
+     }
+    },
+    {
+     "req_id": "R2",
+     "clause": "§3.1(b)",
+     "text": "Trial of at least 8 weeks of a preferred oral preventive medication",
+     "policy_source": {
+      "doc_id": "POL",
+      "page": 1,
+      "line_start": 14,
+      "line_end": 15,
+      "rects": [
+       [
+        107.0,
+        312.96,
+        502.73,
+        324.76
+       ],
+       [
+        92.0,
+        326.56,
+        143.13,
+        338.36
+       ]
+      ]
+     },
+     "policy_text": "The member completed a trial of at least 8 weeks of at least one preferred oral preventive medication.",
+     "facets": [
+      "medication",
+      "duration"
+     ],
+     "status": "supported",
+     "evidence": [
+      {
+       "evidence_id": "R2-E1",
+       "source": {
+        "doc_id": "CR",
+        "page": 4,
+        "line_start": 4,
+        "line_end": 4,
+        "rects": [
+         [
+          76.0,
+          149.48,
+          423.42,
+          161.28
+         ]
+        ]
+       },
+       "quote": "Patient completed an eight-week trial of topiramate, 06/08/2026 to 08/03/2026.",
+       "key_phrases": [
+        {
+         "text": "eight-week trial",
+         "facet": "duration",
+         "rects": [
+          [
+           172.72,
+           149.48,
+           239.96,
+           161.28
+          ]
+         ]
+        },
+        {
+         "text": "topiramate",
+         "facet": "medication",
+         "rects": [
+          [
+           253.86,
+           149.48,
+           301.1,
+           161.28
+          ]
+         ]
+        },
+        {
+         "text": "06/08/2026 to 08/03/2026",
+         "facet": "duration",
+         "rects": [
+          [
+           306.66,
+           149.48,
+           420.64,
+           161.28
+          ]
+         ]
+        }
+       ],
+       "rationale": "Topiramate is on the policy's preferred list; the note states an eight-week trial with start and stop dates."
+      },
+      {
+       "evidence_id": "R2-E2",
+       "source": {
+        "doc_id": "CR",
+        "page": 2,
+        "line_start": 17,
+        "line_end": 18,
+        "rects": [
+         [
+          76.0,
+          373.28,
+          527.35,
+          385.08
+         ],
+         [
+          76.0,
+          386.88,
+          124.9,
+          398.68
+         ]
+        ]
+       },
+       "quote": "Start topiramate 25 mg nightly today, 06/08/2026, increasing by 25 mg each week to a target of 50 mg twice daily.",
+       "key_phrases": [
+        {
+         "text": "Start topiramate",
+         "facet": "medication",
+         "rects": [
+          [
+           76.0,
+           373.28,
+           147.14,
+           385.08
+          ]
+         ]
+        },
+        {
+         "text": "06/08/2026",
+         "facet": "duration",
+         "rects": [
+          [
+           242.19,
+           373.28,
+           292.23,
+           385.08
+          ]
+         ]
+        }
+       ],
+       "rationale": "Independent record of the start date and titration plan."
+      }
+     ],
+     "near_misses": [
+      {
+       "source": {
+        "doc_id": "CR",
+        "page": 1,
+        "line_start": 13,
+        "line_end": 14,
+        "rects": [
+         [
+          76.0,
+          304.88,
+          546.21,
+          316.68
+         ],
+         [
+          76.0,
+          318.48,
+          218.29,
+          330.28
+         ]
+        ]
+       },
+       "quote": "Amitriptyline 10 mg nightly was prescribed in 2023 for insomnia; she took it for about 2 weeks and stopped because of morning grogginess.",
+       "relation": "insufficient",
+       "why_not": "Amitriptyline is a preferred medication, but it was taken for about 2 weeks, for insomnia. That is below the 8-week minimum."
+      },
+      {
+       "source": {
+        "doc_id": "CR",
+        "page": 2,
+        "line_start": 14,
+        "line_end": 14,
+        "rects": [
+         [
+          76.0,
+          321.48,
+          416.72,
+          333.28
+         ]
+        ]
+       },
+       "quote": "Propranolol was considered but not started because of her history of asthma.",
+       "relation": "off_target",
+       "why_not": "Propranolol was considered and never started, so there was no trial."
+      },
+      {
+       "source": {
+        "doc_id": "CR",
+        "page": 3,
+        "line_start": 9,
+        "line_end": 9,
+        "rects": [
+         [
+          217.75,
+          228.48,
+          469.56,
+          240.28
+         ]
+        ]
+       },
+       "quote": "Plan to continue so that she completes an adequate trial.",
+       "relation": "insufficient",
+       "why_not": "States an intention at week 4 to complete the trial; it does not show the trial was completed."
+      }
+     ],
+     "quantity_check": {
+      "label": "Trial duration",
+      "comparator": ">=",
+      "required": 8,
+      "found": 8,
+      "unit": "weeks",
+      "passed": true,
+      "evidence_id": "R2-E1"
+     }
+    },
+    {
+     "req_id": "R3",
+     "clause": "§3.1(c)",
+     "text": "The trial was ineffective or was discontinued because of intolerable adverse effects",
+     "policy_source": {
+      "doc_id": "POL",
+      "page": 1,
+      "line_start": 16,
+      "line_end": 16,
+      "rects": [
+       [
+        106.44,
+        343.16,
+        501.61,
+        354.96
+       ]
+      ]
+     },
+     "policy_text": "The trial in (b) was ineffective or was discontinued because of intolerable adverse effects.",
+     "facets": [
+      "outcome",
+      "reason"
+     ],
+     "status": "supported",
+     "evidence": [
+      {
+       "evidence_id": "R3-E1",
+       "source": {
+        "doc_id": "CR",
+        "page": 4,
+        "line_start": 4,
+        "line_end": 6,
+        "rects": [
+         [
+          426.2,
+          149.48,
+          492.33,
+          161.28
+         ],
+         [
+          76.0,
+          163.08,
+          509.0,
+          174.88
+         ],
+         [
+          76.0,
+          176.68,
+          127.69,
+          188.48
+         ]
+        ]
+       },
+       "quote": "Treatment was discontinued today due to significant nausea and dizziness, which were not tolerable despite dose adjustment.",
+       "key_phrases": [
+        {
+         "text": "discontinued",
+         "facet": "outcome",
+         "rects": [
+          [
+           76.0,
+           163.08,
+           132.14,
+           174.88
+          ]
+         ]
+        },
+        {
+         "text": "significant nausea and dizziness",
+         "facet": "reason",
+         "rects": [
+          [
+           192.74,
+           163.08,
+           336.14,
+           174.88
+          ]
+         ]
+        },
+        {
+         "text": "not tolerable despite dose adjustment",
+         "facet": "reason",
+         "rects": [
+          [
+           394.49,
+           163.08,
+           509.0,
+           174.88
+          ],
+          [
+           76.0,
+           176.68,
+           124.91,
+           188.48
+          ]
+         ]
+        }
+       ],
+       "rationale": "Documents discontinuation and names the adverse effects as the reason."
+      }
+     ],
+     "near_misses": []
+    },
+    {
+     "req_id": "R4",
+     "clause": "§3.1(d)",
+     "text": "Prescribed by, or in consultation with, a neurologist or headache specialist",
+     "policy_source": {
+      "doc_id": "POL",
+      "page": 1,
+      "line_start": 17,
+      "line_end": 17,
+      "rects": [
+       [
+        107.0,
+        359.76,
+        517.73,
+        371.56
+       ]
+      ]
+     },
+     "policy_text": "The medication is prescribed by, or in consultation with, a neurologist or headache specialist.",
+     "facets": [
+      "prescriber"
+     ],
+     "status": "supported",
+     "evidence": [
+      {
+       "evidence_id": "R4-E1",
+       "source": {
+        "doc_id": "CR",
+        "page": 5,
+        "line_start": 10,
+        "line_end": 11,
+        "rects": [
+         [
+          94.11,
+          253.08,
+          505.95,
+          264.88
+         ],
+         [
+          94.11,
+          266.68,
+          273.07,
+          278.48
+         ]
+        ]
+       },
+       "quote": "Erenumab-aooe 70 mg subcutaneously once monthly - ordered by Elena M. Castellanos, MD (Neurology); pending prior authorization.",
+       "key_phrases": [
+        {
+         "text": "ordered by Elena M. Castellanos, MD (Neurology)",
+         "facet": "prescriber",
+         "rects": [
+          [
+           339.78,
+           253.08,
+           505.95,
+           264.88
+          ],
+          [
+           94.11,
+           266.68,
+           146.34,
+           278.48
+          ]
+         ]
+        }
+       ],
+       "rationale": "The ordering clinician is identified as a neurologist."
+      }
+     ],
+     "near_misses": []
+    }
+   ],
+   "counts": {
+    "supported": 4,
+    "partial": 0,
+    "missing": 0,
+    "contradicted": 0,
+    "total": 4
+   },
+   "supportable": true
+  }
+ ],
+ "recommendation": {
+  "type": "appeal_on_stated_basis",
+  "basis_id": "STATED",
+  "banner": "All 4 requirements under §3.1 are supported by the record. Ready for staff review.",
+  "rationale": "Every criterion the denial relies on has a verified source passage. No alternative basis is needed.",
+  "human_actions": [
+   "Open each cited passage and confirm it says what the draft claims.",
+   "Confirm MP-RX-014 is the policy version in force on the denial date.",
+   "Approve, edit and submit; the system does not submit."
+  ]
+ },
+ "draft": {
+  "basis_id": "STATED",
+  "status": "ready_for_review",
+  "blocks": [
+   {
+    "type": "text",
+    "text": "Re: Appeal of adverse benefit determination, reference A-2048. Erenumab-aooe 70 mg once monthly.",
+    "citations": []
+   },
+   {
+    "type": "text",
+    "text": "We request reconsideration of the denial dated September 22, 2026, which cited insufficient documentation of prior treatment failure under Medical Policy MP-RX-014, Section 3.1.",
+    "citations": []
+   },
+   {
+    "type": "claim",
+    "text": "The member has episodic migraine without aura, with 7, 8 and 9 migraine days in June, July and August 2026.",
+    "citations": [
+     "R1-E1",
+     "R1-E2"
+    ]
+   },
+   {
+    "type": "claim",
+    "text": "She completed an eight-week trial of topiramate, a preferred oral preventive medication, from 06/08/2026 to 08/03/2026.",
+    "citations": [
+     "R2-E1"
+    ]
+   },
+   {
+    "type": "claim",
+    "text": "Topiramate was discontinued because of significant nausea and dizziness that were not tolerable despite dose adjustment.",
+    "citations": [
+     "R3-E1"
+    ]
+   },
+   {
+    "type": "claim",
+    "text": "Erenumab-aooe was ordered by her treating neurologist, Elena M. Castellanos, MD.",
+    "citations": [
+     "R4-E1"
+    ]
+   },
+   {
+    "type": "text",
+    "text": "The enclosed records satisfy criteria 3.1(a) through 3.1(d). We ask that the denial be overturned.",
+    "citations": []
+   }
+  ]
+ }
+}

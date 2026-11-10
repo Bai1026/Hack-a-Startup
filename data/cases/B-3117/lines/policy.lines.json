@@ -1,0 +1,426 @@
+{
+ "doc_id": "POL",
+ "file": "policy.pdf",
+ "title": "Payer policy MP-HH-007",
+ "page_size": [
+  612.0,
+  792.0
+ ],
+ "coord_origin": "top-left",
+ "units": "pt",
+ "pages": [
+  {
+   "page": 1,
+   "lines": [
+    {
+     "line_id": "POL-p1-L1",
+     "line": 1,
+     "text": "1. Purpose",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      87.2,
+      127.13,
+      99.0
+     ]
+    },
+    {
+     "line_id": "POL-p1-L2",
+     "line": 2,
+     "text": "This policy describes when Alderpoint Health Plan covers skilled home health services.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      103.8,
+      460.58,
+      115.6
+     ]
+    },
+    {
+     "line_id": "POL-p1-L3",
+     "line": 3,
+     "text": "2. Definitions",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      132.88,
+      138.79,
+      144.68
+     ]
+    },
+    {
+     "line_id": "POL-p1-L4",
+     "line": 4,
+     "text": "Homebound: leaving home requires a considerable and taxing effort, and the member needs the help of",
+     "style": "body",
+     "bbox": [
+      76.0,
+      149.48,
+      534.57,
+      161.28
+     ]
+    },
+    {
+     "line_id": "POL-p1-L5",
+     "line": 5,
+     "text": "another person or a supportive device to leave home. Absences for medical care do not by themselves",
+     "style": "body",
+     "bbox": [
+      76.0,
+      163.08,
+      530.1,
+      174.88
+     ]
+    },
+    {
+     "line_id": "POL-p1-L6",
+     "line": 6,
+     "text": "change homebound status.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      176.68,
+      196.63,
+      188.48
+     ]
+    },
+    {
+     "line_id": "POL-p1-L7",
+     "line": 7,
+     "text": "Skilled service: a service that requires the skills of a registered nurse or a licensed therapist to be",
+     "style": "body",
+     "bbox": [
+      76.0,
+      193.28,
+      505.06,
+      205.08
+     ]
+    },
+    {
+     "line_id": "POL-p1-L8",
+     "line": 8,
+     "text": "delivered safely and effectively.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      206.88,
+      214.95,
+      218.68
+     ]
+    },
+    {
+     "line_id": "POL-p1-L9",
+     "line": 9,
+     "text": "Facility-based alternative: admission to a skilled nursing facility or an inpatient rehabilitation facility.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      223.48,
+      512.27,
+      235.28
+     ]
+    },
+    {
+     "line_id": "POL-p1-L10",
+     "line": 10,
+     "text": "3. Coverage criteria",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      252.56,
+      168.82,
+      264.36
+     ]
+    },
+    {
+     "line_id": "POL-p1-L11",
+     "line": 11,
+     "text": "3.1 Standard criteria. Home health services are medically necessary when all of the following are met:",
+     "style": "body",
+     "bbox": [
+      76.0,
+      269.16,
+      526.17,
+      280.96
+     ]
+    },
+    {
+     "line_id": "POL-p1-L12",
+     "line": 12,
+     "text": "(a) A physician ordered the services under a written plan of care after a face-to-face encounter related",
+     "style": "body",
+     "bbox": [
+      92.0,
+      285.76,
+      542.76,
+      297.56
+     ]
+    },
+    {
+     "line_id": "POL-p1-L13",
+     "line": 13,
+     "text": "to the reason for home health.",
+     "style": "body",
+     "bbox": [
+      92.0,
+      299.36,
+      225.41,
+      311.16
+     ]
+    },
+    {
+     "line_id": "POL-p1-L14",
+     "line": 14,
+     "text": "(b) The member needs intermittent skilled nursing or skilled therapy services.",
+     "style": "body",
+     "bbox": [
+      92.0,
+      315.96,
+      432.66,
+      327.76
+     ]
+    },
+    {
+     "line_id": "POL-p1-L15",
+     "line": 15,
+     "text": "(c) The treating practitioner certified in the record that the member is homebound, with a statement of",
+     "style": "body",
+     "bbox": [
+      92.0,
+      332.56,
+      538.86,
+      344.36
+     ]
+    },
+    {
+     "line_id": "POL-p1-L16",
+     "line": 16,
+     "text": "the clinical findings that support homebound status.",
+     "style": "body",
+     "bbox": [
+      92.0,
+      346.16,
+      319.34,
+      357.96
+     ]
+    },
+    {
+     "line_id": "POL-p1-L17",
+     "line": 17,
+     "text": "3.2 Visit limits. Up to 60 visits per benefit year across all disciplines. Additional visits require a new review.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      362.76,
+      543.93,
+      374.56
+     ]
+    },
+    {
+     "line_id": "POL-p1-L18",
+     "line": 18,
+     "text": "3.3 Home-based care in place of a facility admission. Home health services ordered in place of a",
+     "style": "body",
+     "bbox": [
+      76.0,
+      379.36,
+      502.84,
+      391.16
+     ]
+    },
+    {
+     "line_id": "POL-p1-L19",
+     "line": 19,
+     "text": "facility-based alternative are medically necessary, without certification of homebound status under 3.1(c),",
+     "style": "body",
+     "bbox": [
+      76.0,
+      392.96,
+      539.52,
+      404.76
+     ]
+    },
+    {
+     "line_id": "POL-p1-L20",
+     "line": 20,
+     "text": "when all of the following are documented:",
+     "style": "body",
+     "bbox": [
+      76.0,
+      406.56,
+      259.98,
+      418.36
+     ]
+    },
+    {
+     "line_id": "POL-p1-L21",
+     "line": 21,
+     "text": "(a) The member meets Plan criteria for admission to a skilled nursing facility or an inpatient",
+     "style": "body",
+     "bbox": [
+      92.0,
+      423.16,
+      493.8,
+      434.96
+     ]
+    },
+    {
+     "line_id": "POL-p1-L22",
+     "line": 22,
+     "text": "rehabilitation facility, as documented by the treating physician or a case manager.",
+     "style": "body",
+     "bbox": [
+      92.0,
+      436.76,
+      452.72,
+      448.56
+     ]
+    },
+    {
+     "line_id": "POL-p1-L23",
+     "line": 23,
+     "text": "(b) The home setting was evaluated and found clinically appropriate and safe for the ordered services,",
+     "style": "body",
+     "bbox": [
+      92.0,
+      453.36,
+      543.32,
+      465.16
+     ]
+    },
+    {
+     "line_id": "POL-p1-L24",
+     "line": 24,
+     "text": "including caregiver availability when a caregiver is needed.",
+     "style": "body",
+     "bbox": [
+      92.0,
+      466.96,
+      352.1,
+      478.76
+     ]
+    },
+    {
+     "line_id": "POL-p1-L25",
+     "line": 25,
+     "text": "(c) The expected cost of the home health services does not exceed the expected cost of the",
+     "style": "body",
+     "bbox": [
+      92.0,
+      483.56,
+      498.33,
+      495.36
+     ]
+    },
+    {
+     "line_id": "POL-p1-L26",
+     "line": 26,
+     "text": "facility-based alternative.",
+     "style": "body",
+     "bbox": [
+      92.0,
+      497.16,
+      202.04,
+      508.96
+     ]
+    },
+    {
+     "line_id": "POL-p1-L27",
+     "line": 27,
+     "text": "4. Documentation",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      526.24,
+      159.9,
+      538.04
+     ]
+    },
+    {
+     "line_id": "POL-p1-L28",
+     "line": 28,
+     "text": "Acceptable documentation includes the plan of care, the face-to-face encounter note, therapy evaluations,",
+     "style": "body",
+     "bbox": [
+      76.0,
+      542.84,
+      544.59,
+      554.64
+     ]
+    },
+    {
+     "line_id": "POL-p1-L29",
+     "line": 29,
+     "text": "case management and discharge planning notes, and home safety evaluations.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      556.44,
+      427.3,
+      568.24
+     ]
+    },
+    {
+     "line_id": "POL-p1-L30",
+     "line": 30,
+     "text": "5. Not covered",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      585.52,
+      144.91,
+      597.32
+     ]
+    },
+    {
+     "line_id": "POL-p1-L31",
+     "line": 31,
+     "text": "Custodial care, homemaker services, and services that a caregiver without clinical training can provide",
+     "style": "body",
+     "bbox": [
+      76.0,
+      602.12,
+      528.38,
+      613.92
+     ]
+    },
+    {
+     "line_id": "POL-p1-L32",
+     "line": 32,
+     "text": "safely.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      615.72,
+      104.9,
+      627.52
+     ]
+    },
+    {
+     "line_id": "POL-p1-L33",
+     "line": 33,
+     "text": "6. Review of this policy",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      644.8,
+      186.04,
+      656.6
+     ]
+    },
+    {
+     "line_id": "POL-p1-L34",
+     "line": 34,
+     "text": "This policy is reviewed annually. The version in force on the date of the determination applies.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      661.4,
+      490.63,
+      673.2
+     ]
+    }
+   ]
+  }
+ ]
+}

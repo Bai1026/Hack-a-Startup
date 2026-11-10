@@ -1,0 +1,330 @@
+{
+ "doc_id": "POL",
+ "file": "policy.pdf",
+ "title": "Payer policy MP-RAD-022",
+ "page_size": [
+  612.0,
+  792.0
+ ],
+ "coord_origin": "top-left",
+ "units": "pt",
+ "pages": [
+  {
+   "page": 1,
+   "lines": [
+    {
+     "line_id": "POL-p1-L1",
+     "line": 1,
+     "text": "1. Purpose",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      87.2,
+      127.13,
+      99.0
+     ]
+    },
+    {
+     "line_id": "POL-p1-L2",
+     "line": 2,
+     "text": "This policy describes when Alderpoint Health Plan covers magnetic resonance imaging (MRI) of the",
+     "style": "body",
+     "bbox": [
+      76.0,
+      103.8,
+      516.16,
+      115.6
+     ]
+    },
+    {
+     "line_id": "POL-p1-L3",
+     "line": 3,
+     "text": "lumbar spine for low back pain.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      117.4,
+      213.83,
+      129.2
+     ]
+    },
+    {
+     "line_id": "POL-p1-L4",
+     "line": 4,
+     "text": "2. Definitions",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      146.48,
+      138.79,
+      158.28
+     ]
+    },
+    {
+     "line_id": "POL-p1-L5",
+     "line": 5,
+     "text": "Supervised home exercise program: a program prescribed by a clinician or therapist with documented",
+     "style": "body",
+     "bbox": [
+      76.0,
+      163.08,
+      525.61,
+      174.88
+     ]
+    },
+    {
+     "line_id": "POL-p1-L6",
+     "line": 6,
+     "text": "follow-up of the member's participation, such as a signed exercise log or follow-up visits.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      176.68,
+      465.83,
+      188.48
+     ]
+    },
+    {
+     "line_id": "POL-p1-L7",
+     "line": 7,
+     "text": "Conservative therapy: non-surgical treatment, including physical therapy, exercise, and medication.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      193.28,
+      514.51,
+      205.08
+     ]
+    },
+    {
+     "line_id": "POL-p1-L8",
+     "line": 8,
+     "text": "3. Coverage criteria",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      222.36,
+      168.82,
+      234.16
+     ]
+    },
+    {
+     "line_id": "POL-p1-L9",
+     "line": 9,
+     "text": "3.1 Low back pain with or without leg symptoms. MRI of the lumbar spine is medically necessary when all",
+     "style": "body",
+     "bbox": [
+      76.0,
+      238.96,
+      541.72,
+      250.76
+     ]
+    },
+    {
+     "line_id": "POL-p1-L10",
+     "line": 10,
+     "text": "of the following are documented:",
+     "style": "body",
+     "bbox": [
+      76.0,
+      252.56,
+      220.52,
+      264.36
+     ]
+    },
+    {
+     "line_id": "POL-p1-L11",
+     "line": 11,
+     "text": "(a) Symptoms have been present for at least 6 weeks.",
+     "style": "body",
+     "bbox": [
+      92.0,
+      269.16,
+      331.55,
+      280.96
+     ]
+    },
+    {
+     "line_id": "POL-p1-L12",
+     "line": 12,
+     "text": "(b) The member completed at least 6 weeks of physical therapy or a supervised home exercise",
+     "style": "body",
+     "bbox": [
+      92.0,
+      285.76,
+      512.16,
+      297.56
+     ]
+    },
+    {
+     "line_id": "POL-p1-L13",
+     "line": 13,
+     "text": "program within the 3 months before the request.",
+     "style": "body",
+     "bbox": [
+      92.0,
+      299.36,
+      304.88,
+      311.16
+     ]
+    },
+    {
+     "line_id": "POL-p1-L14",
+     "line": 14,
+     "text": "(c) The member completed a trial of an anti-inflammatory or analgesic medication for at least 4 weeks,",
+     "style": "body",
+     "bbox": [
+      92.0,
+      315.96,
+      543.27,
+      327.76
+     ]
+    },
+    {
+     "line_id": "POL-p1-L15",
+     "line": 15,
+     "text": "unless contraindicated.",
+     "style": "body",
+     "bbox": [
+      92.0,
+      329.56,
+      194.27,
+      341.36
+     ]
+    },
+    {
+     "line_id": "POL-p1-L16",
+     "line": 16,
+     "text": "(d) A clinical re-evaluation after conservative therapy documents persistent symptoms.",
+     "style": "body",
+     "bbox": [
+      92.0,
+      346.16,
+      473.8,
+      357.96
+     ]
+    },
+    {
+     "line_id": "POL-p1-L17",
+     "line": 17,
+     "text": "3.2 Red-flag exception. Criteria 3.1(a) through 3.1(d) do not apply when the record documents any of the",
+     "style": "body",
+     "bbox": [
+      76.0,
+      362.76,
+      538.45,
+      374.56
+     ]
+    },
+    {
+     "line_id": "POL-p1-L18",
+     "line": 18,
+     "text": "following: progressive motor weakness; bowel or bladder dysfunction or saddle anesthesia; or suspected",
+     "style": "body",
+     "bbox": [
+      76.0,
+      376.36,
+      538.42,
+      388.16
+     ]
+    },
+    {
+     "line_id": "POL-p1-L19",
+     "line": 19,
+     "text": "cancer, infection, or fracture.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      389.96,
+      202.72,
+      401.76
+     ]
+    },
+    {
+     "line_id": "POL-p1-L20",
+     "line": 20,
+     "text": "3.3 Repeat imaging. Repeat MRI within 12 months requires a documented change in symptoms or",
+     "style": "body",
+     "bbox": [
+      76.0,
+      406.56,
+      510.63,
+      418.36
+     ]
+    },
+    {
+     "line_id": "POL-p1-L21",
+     "line": 21,
+     "text": "examination findings.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      420.16,
+      169.93,
+      431.96
+     ]
+    },
+    {
+     "line_id": "POL-p1-L22",
+     "line": 22,
+     "text": "4. Documentation",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      449.24,
+      159.9,
+      461.04
+     ]
+    },
+    {
+     "line_id": "POL-p1-L23",
+     "line": 23,
+     "text": "Acceptable documentation includes office notes, physical therapy evaluations, progress and discharge",
+     "style": "body",
+     "bbox": [
+      76.0,
+      465.84,
+      528.44,
+      477.64
+     ]
+    },
+    {
+     "line_id": "POL-p1-L24",
+     "line": 24,
+     "text": "notes, attendance logs, and signed home exercise logs.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      479.44,
+      322.8,
+      491.24
+     ]
+    },
+    {
+     "line_id": "POL-p1-L25",
+     "line": 25,
+     "text": "5. Not covered",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      508.52,
+      144.91,
+      520.32
+     ]
+    },
+    {
+     "line_id": "POL-p1-L26",
+     "line": 26,
+     "text": "MRI requested only for patient reassurance or for work clearance without the criteria above.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      525.12,
+      480.61,
+      536.92
+     ]
+    }
+   ]
+  }
+ ]
+}

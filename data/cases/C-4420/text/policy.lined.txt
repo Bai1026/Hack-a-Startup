@@ -1,0 +1,27 @@
+=== POL | Payer policy MP-RAD-022 | page 1 of 1 ===
+[POL-p1-L1] 1. Purpose
+[POL-p1-L2] This policy describes when Alderpoint Health Plan covers magnetic resonance imaging (MRI) of the
+[POL-p1-L3] lumbar spine for low back pain.
+[POL-p1-L4] 2. Definitions
+[POL-p1-L5] Supervised home exercise program: a program prescribed by a clinician or therapist with documented
+[POL-p1-L6] follow-up of the member's participation, such as a signed exercise log or follow-up visits.
+[POL-p1-L7] Conservative therapy: non-surgical treatment, including physical therapy, exercise, and medication.
+[POL-p1-L8] 3. Coverage criteria
+[POL-p1-L9] 3.1 Low back pain with or without leg symptoms. MRI of the lumbar spine is medically necessary when all
+[POL-p1-L10] of the following are documented:
+[POL-p1-L11] (a) Symptoms have been present for at least 6 weeks.
+[POL-p1-L12] (b) The member completed at least 6 weeks of physical therapy or a supervised home exercise
+[POL-p1-L13] program within the 3 months before the request.
+[POL-p1-L14] (c) The member completed a trial of an anti-inflammatory or analgesic medication for at least 4 weeks,
+[POL-p1-L15] unless contraindicated.
+[POL-p1-L16] (d) A clinical re-evaluation after conservative therapy documents persistent symptoms.
+[POL-p1-L17] 3.2 Red-flag exception. Criteria 3.1(a) through 3.1(d) do not apply when the record documents any of the
+[POL-p1-L18] following: progressive motor weakness; bowel or bladder dysfunction or saddle anesthesia; or suspected
+[POL-p1-L19] cancer, infection, or fracture.
+[POL-p1-L20] 3.3 Repeat imaging. Repeat MRI within 12 months requires a documented change in symptoms or
+[POL-p1-L21] examination findings.
+[POL-p1-L22] 4. Documentation
+[POL-p1-L23] Acceptable documentation includes office notes, physical therapy evaluations, progress and discharge
+[POL-p1-L24] notes, attendance logs, and signed home exercise logs.
+[POL-p1-L25] 5. Not covered
+[POL-p1-L26] MRI requested only for patient reassurance or for work clearance without the criteria above.

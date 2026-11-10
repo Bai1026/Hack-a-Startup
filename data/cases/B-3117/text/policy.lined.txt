@@ -1,0 +1,35 @@
+=== POL | Payer policy MP-HH-007 | page 1 of 1 ===
+[POL-p1-L1] 1. Purpose
+[POL-p1-L2] This policy describes when Alderpoint Health Plan covers skilled home health services.
+[POL-p1-L3] 2. Definitions
+[POL-p1-L4] Homebound: leaving home requires a considerable and taxing effort, and the member needs the help of
+[POL-p1-L5] another person or a supportive device to leave home. Absences for medical care do not by themselves
+[POL-p1-L6] change homebound status.
+[POL-p1-L7] Skilled service: a service that requires the skills of a registered nurse or a licensed therapist to be
+[POL-p1-L8] delivered safely and effectively.
+[POL-p1-L9] Facility-based alternative: admission to a skilled nursing facility or an inpatient rehabilitation facility.
+[POL-p1-L10] 3. Coverage criteria
+[POL-p1-L11] 3.1 Standard criteria. Home health services are medically necessary when all of the following are met:
+[POL-p1-L12] (a) A physician ordered the services under a written plan of care after a face-to-face encounter related
+[POL-p1-L13] to the reason for home health.
+[POL-p1-L14] (b) The member needs intermittent skilled nursing or skilled therapy services.
+[POL-p1-L15] (c) The treating practitioner certified in the record that the member is homebound, with a statement of
+[POL-p1-L16] the clinical findings that support homebound status.
+[POL-p1-L17] 3.2 Visit limits. Up to 60 visits per benefit year across all disciplines. Additional visits require a new review.
+[POL-p1-L18] 3.3 Home-based care in place of a facility admission. Home health services ordered in place of a
+[POL-p1-L19] facility-based alternative are medically necessary, without certification of homebound status under 3.1(c),
+[POL-p1-L20] when all of the following are documented:
+[POL-p1-L21] (a) The member meets Plan criteria for admission to a skilled nursing facility or an inpatient
+[POL-p1-L22] rehabilitation facility, as documented by the treating physician or a case manager.
+[POL-p1-L23] (b) The home setting was evaluated and found clinically appropriate and safe for the ordered services,
+[POL-p1-L24] including caregiver availability when a caregiver is needed.
+[POL-p1-L25] (c) The expected cost of the home health services does not exceed the expected cost of the
+[POL-p1-L26] facility-based alternative.
+[POL-p1-L27] 4. Documentation
+[POL-p1-L28] Acceptable documentation includes the plan of care, the face-to-face encounter note, therapy evaluations,
+[POL-p1-L29] case management and discharge planning notes, and home safety evaluations.
+[POL-p1-L30] 5. Not covered
+[POL-p1-L31] Custodial care, homemaker services, and services that a caregiver without clinical training can provide
+[POL-p1-L32] safely.
+[POL-p1-L33] 6. Review of this policy
+[POL-p1-L34] This policy is reviewed annually. The version in force on the date of the determination applies.

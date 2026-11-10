@@ -1,0 +1,1142 @@
+{
+ "doc_id": "CR",
+ "file": "clinical_record.pdf",
+ "title": "Clinical record",
+ "page_size": [
+  612.0,
+  792.0
+ ],
+ "coord_origin": "top-left",
+ "units": "pt",
+ "pages": [
+  {
+   "page": 1,
+   "lines": [
+    {
+     "line_id": "CR-p1-L1",
+     "line": 1,
+     "text": "RIVERBEND FAMILY MEDICINE - OFFICE VISIT",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      87.2,
+      299.91,
+      99.0
+     ]
+    },
+    {
+     "line_id": "CR-p1-L2",
+     "line": 2,
+     "text": "Date of service: 04/20/2026 | Provider: Samuel T. Okafor, MD",
+     "style": "body",
+     "bbox": [
+      76.0,
+      103.8,
+      348.71,
+      115.6
+     ]
+    },
+    {
+     "line_id": "CR-p1-L3",
+     "line": 3,
+     "text": "Chief complaint",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      132.88,
+      151.01,
+      144.68
+     ]
+    },
+    {
+     "line_id": "CR-p1-L4",
+     "line": 4,
+     "text": "Recurrent headaches.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      149.48,
+      174.38,
+      161.28
+     ]
+    },
+    {
+     "line_id": "CR-p1-L5",
+     "line": 5,
+     "text": "History of present illness",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      171.08,
+      195.48,
+      182.88
+     ]
+    },
+    {
+     "line_id": "CR-p1-L6",
+     "line": 6,
+     "text": "38-year-old woman with recurrent throbbing, usually left-sided headaches for about 2 years, more frequent",
+     "style": "body",
+     "bbox": [
+      76.0,
+      187.68,
+      546.76,
+      199.48
+     ]
+    },
+    {
+     "line_id": "CR-p1-L7",
+     "line": 7,
+     "text": "over the past 6 months. Episodes last 6 to 24 hours and come with nausea and sensitivity to light. She",
+     "style": "body",
+     "bbox": [
+      76.0,
+      201.28,
+      527.9,
+      213.08
+     ]
+    },
+    {
+     "line_id": "CR-p1-L8",
+     "line": 8,
+     "text": "misses 2 to 3 days of work each month. She takes ibuprofen and sumatriptan 50 mg as needed with",
+     "style": "body",
+     "bbox": [
+      76.0,
+      214.88,
+      518.44,
+      226.68
+     ]
+    },
+    {
+     "line_id": "CR-p1-L9",
+     "line": 9,
+     "text": "partial relief.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      228.48,
+      130.46,
+      240.28
+     ]
+    },
+    {
+     "line_id": "CR-p1-L10",
+     "line": 10,
+     "text": "Past medical history",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      250.08,
+      173.26,
+      261.88
+     ]
+    },
+    {
+     "line_id": "CR-p1-L11",
+     "line": 11,
+     "text": "Mild intermittent asthma. Seasonal allergic rhinitis. Insomnia (2023), resolved.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      266.68,
+      419.45,
+      278.48
+     ]
+    },
+    {
+     "line_id": "CR-p1-L12",
+     "line": 12,
+     "text": "Medication history",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      288.28,
+      164.35,
+      300.08
+     ]
+    },
+    {
+     "line_id": "CR-p1-L13",
+     "line": 13,
+     "text": "Amitriptyline 10 mg nightly was prescribed in 2023 for insomnia; she took it for about 2 weeks and stopped",
+     "style": "body",
+     "bbox": [
+      76.0,
+      304.88,
+      546.21,
+      316.68
+     ]
+    },
+    {
+     "line_id": "CR-p1-L14",
+     "line": 14,
+     "text": "because of morning grogginess.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      318.48,
+      218.29,
+      330.28
+     ]
+    },
+    {
+     "line_id": "CR-p1-L15",
+     "line": 15,
+     "text": "Current: sumatriptan 50 mg as needed, albuterol inhaler as needed, cetirizine 10 mg daily.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      335.08,
+      475.07,
+      346.88
+     ]
+    },
+    {
+     "line_id": "CR-p1-L16",
+     "line": 16,
+     "text": "Family and social history",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      356.68,
+      195.49,
+      368.48
+     ]
+    },
+    {
+     "line_id": "CR-p1-L17",
+     "line": 17,
+     "text": "Mother has migraine. Works as a paralegal. No tobacco. Alcohol 1 to 2 drinks per week.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      373.28,
+      464.49,
+      385.08
+     ]
+    },
+    {
+     "line_id": "CR-p1-L18",
+     "line": 18,
+     "text": "Examination",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      394.88,
+      135.46,
+      406.68
+     ]
+    },
+    {
+     "line_id": "CR-p1-L19",
+     "line": 19,
+     "text": "BP 118/72, HR 68, BMI 24. Alert, in no distress. Cranial nerves intact. Strength and sensation normal. Gait",
+     "style": "body",
+     "bbox": [
+      76.0,
+      411.48,
+      546.77,
+      423.28
+     ]
+    },
+    {
+     "line_id": "CR-p1-L20",
+     "line": 20,
+     "text": "normal. Fundi normal.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      425.08,
+      173.25,
+      436.88
+     ]
+    },
+    {
+     "line_id": "CR-p1-L21",
+     "line": 21,
+     "text": "Assessment and plan",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      446.68,
+      178.81,
+      458.48
+     ]
+    },
+    {
+     "line_id": "CR-p1-L22",
+     "line": 22,
+     "text": "Probable migraine without aura. Referral placed to neurology. Continue sumatriptan as needed, no more",
+     "style": "body",
+     "bbox": [
+      76.0,
+      463.28,
+      537.88,
+      475.08
+     ]
+    },
+    {
+     "line_id": "CR-p1-L23",
+     "line": 23,
+     "text": "than 9 doses per month. Start a headache diary.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      476.88,
+      290.01,
+      488.68
+     ]
+    },
+    {
+     "line_id": "CR-p1-L24",
+     "line": 24,
+     "text": "Preventive options were discussed; she prefers to wait for the neurology visit before starting a daily",
+     "style": "body",
+     "bbox": [
+      76.0,
+      493.48,
+      513.41,
+      505.28
+     ]
+    },
+    {
+     "line_id": "CR-p1-L25",
+     "line": 25,
+     "text": "preventive medication.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      507.08,
+      176.04,
+      518.88
+     ]
+    },
+    {
+     "line_id": "CR-p1-L26",
+     "line": 26,
+     "text": "Electronically signed: Samuel T. Okafor, MD, 04/20/2026 16:42",
+     "style": "body",
+     "bbox": [
+      76.0,
+      531.16,
+      355.57,
+      542.96
+     ]
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "lines": [
+    {
+     "line_id": "CR-p2-L1",
+     "line": 1,
+     "text": "LINDEN CREEK NEUROLOGY ASSOCIATES - NEW PATIENT CONSULTATION",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      87.2,
+      446.02,
+      99.0
+     ]
+    },
+    {
+     "line_id": "CR-p2-L2",
+     "line": 2,
+     "text": "Date of service: 06/08/2026 | Provider: Elena M. Castellanos, MD, Neurology | Referred by: S. Okafor, MD",
+     "style": "body",
+     "bbox": [
+      76.0,
+      103.8,
+      545.27,
+      115.6
+     ]
+    },
+    {
+     "line_id": "CR-p2-L3",
+     "line": 3,
+     "text": "History",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      132.88,
+      110.45,
+      144.68
+     ]
+    },
+    {
+     "line_id": "CR-p2-L4",
+     "line": 4,
+     "text": "Referred for frequent headaches. Attacks are unilateral and pulsating, moderate to severe, worse with",
+     "style": "body",
+     "bbox": [
+      76.0,
+      149.48,
+      526.21,
+      161.28
+     ]
+    },
+    {
+     "line_id": "CR-p2-L5",
+     "line": 5,
+     "text": "activity, with nausea and photophobia. No aura. No focal weakness, vision loss, or speech change.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      163.08,
+      512.88,
+      174.88
+     ]
+    },
+    {
+     "line_id": "CR-p2-L6",
+     "line": 6,
+     "text": "Triggers: poor sleep, skipped meals.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      176.68,
+      237.17,
+      188.48
+     ]
+    },
+    {
+     "line_id": "CR-p2-L7",
+     "line": 7,
+     "text": "Headache diary reviewed for March through May 2026: 9 migraine days in March, 8 in April, and 10 in",
+     "style": "body",
+     "bbox": [
+      76.0,
+      193.28,
+      525.63,
+      205.08
+     ]
+    },
+    {
+     "line_id": "CR-p2-L8",
+     "line": 8,
+     "text": "May. Sumatriptan used on 6 to 8 days per month.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      206.88,
+      295.0,
+      218.68
+     ]
+    },
+    {
+     "line_id": "CR-p2-L9",
+     "line": 9,
+     "text": "Examination",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      228.48,
+      135.46,
+      240.28
+     ]
+    },
+    {
+     "line_id": "CR-p2-L10",
+     "line": 10,
+     "text": "Normal mental status, cranial nerves, motor, sensory, coordination, and gait. No papilledema.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      245.08,
+      488.94,
+      256.88
+     ]
+    },
+    {
+     "line_id": "CR-p2-L11",
+     "line": 11,
+     "text": "Assessment",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      266.68,
+      134.91,
+      278.48
+     ]
+    },
+    {
+     "line_id": "CR-p2-L12",
+     "line": 12,
+     "text": "Episodic migraine without aura (ICD-10 G43.009). Frequency supports daily preventive treatment.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      283.28,
+      508.39,
+      295.08
+     ]
+    },
+    {
+     "line_id": "CR-p2-L13",
+     "line": 13,
+     "text": "Preventive treatment discussion",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      304.88,
+      229.94,
+      316.68
+     ]
+    },
+    {
+     "line_id": "CR-p2-L14",
+     "line": 14,
+     "text": "Propranolol was considered but not started because of her history of asthma. Topiramate reviewed,",
+     "style": "body",
+     "bbox": [
+      76.0,
+      321.48,
+      515.64,
+      333.28
+     ]
+    },
+    {
+     "line_id": "CR-p2-L15",
+     "line": 15,
+     "text": "including paresthesia, cognitive slowing, nausea, and the need for reliable contraception.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      335.08,
+      468.42,
+      346.88
+     ]
+    },
+    {
+     "line_id": "CR-p2-L16",
+     "line": 16,
+     "text": "Plan",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      356.68,
+      97.12,
+      368.48
+     ]
+    },
+    {
+     "line_id": "CR-p2-L17",
+     "line": 17,
+     "text": "Start topiramate 25 mg nightly today, 06/08/2026, increasing by 25 mg each week to a target of 50 mg",
+     "style": "body",
+     "bbox": [
+      76.0,
+      373.28,
+      527.35,
+      385.08
+     ]
+    },
+    {
+     "line_id": "CR-p2-L18",
+     "line": 18,
+     "text": "twice daily.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      386.88,
+      124.9,
+      398.68
+     ]
+    },
+    {
+     "line_id": "CR-p2-L19",
+     "line": 19,
+     "text": "Continue sumatriptan 50 mg as needed. Continue headache diary. Return in 4 weeks.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      403.48,
+      456.19,
+      415.28
+     ]
+    },
+    {
+     "line_id": "CR-p2-L20",
+     "line": 20,
+     "text": "Electronically signed: Elena M. Castellanos, MD, Neurology, 06/08/2026 11:05",
+     "style": "body",
+     "bbox": [
+      76.0,
+      427.56,
+      422.82,
+      439.36
+     ]
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "lines": [
+    {
+     "line_id": "CR-p3-L1",
+     "line": 1,
+     "text": "LINDEN CREEK NEUROLOGY ASSOCIATES - FOLLOW-UP VISIT",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      87.2,
+      383.25,
+      99.0
+     ]
+    },
+    {
+     "line_id": "CR-p3-L2",
+     "line": 2,
+     "text": "Date of service: 07/06/2026 | Provider: Elena M. Castellanos, MD, Neurology",
+     "style": "body",
+     "bbox": [
+      76.0,
+      103.8,
+      415.96,
+      115.6
+     ]
+    },
+    {
+     "line_id": "CR-p3-L3",
+     "line": 3,
+     "text": "Interval history",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      132.88,
+      147.69,
+      144.68
+     ]
+    },
+    {
+     "line_id": "CR-p3-L4",
+     "line": 4,
+     "text": "Four weeks on topiramate. She reached 50 mg twice daily on 06/29/2026. She reports nausea most",
+     "style": "body",
+     "bbox": [
+      76.0,
+      149.48,
+      517.33,
+      161.28
+     ]
+    },
+    {
+     "line_id": "CR-p3-L5",
+     "line": 5,
+     "text": "mornings and intermittent dizziness since the dose reached 75 mg per day. No paresthesia. No",
+     "style": "body",
+     "bbox": [
+      76.0,
+      163.08,
+      496.74,
+      174.88
+     ]
+    },
+    {
+     "line_id": "CR-p3-L6",
+     "line": 6,
+     "text": "word-finding difficulty. Diary shows 7 migraine days in June.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      176.68,
+      340.53,
+      188.48
+     ]
+    },
+    {
+     "line_id": "CR-p3-L7",
+     "line": 7,
+     "text": "Assessment and plan",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      198.28,
+      178.81,
+      210.08
+     ]
+    },
+    {
+     "line_id": "CR-p3-L8",
+     "line": 8,
+     "text": "Migraine frequency not yet improved; adverse effects present. Dose adjusted to 25 mg in the morning and",
+     "style": "body",
+     "bbox": [
+      76.0,
+      214.88,
+      544.0,
+      226.68
+     ]
+    },
+    {
+     "line_id": "CR-p3-L9",
+     "line": 9,
+     "text": "50 mg at night, taken with food. Plan to continue so that she completes an adequate trial. Return in 4",
+     "style": "body",
+     "bbox": [
+      76.0,
+      228.48,
+      521.25,
+      240.28
+     ]
+    },
+    {
+     "line_id": "CR-p3-L10",
+     "line": 10,
+     "text": "weeks.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      242.08,
+      107.12,
+      253.88
+     ]
+    },
+    {
+     "line_id": "CR-p3-L11",
+     "line": 11,
+     "text": "Electronically signed: Elena M. Castellanos, MD, Neurology, 07/06/2026 09:48",
+     "style": "body",
+     "bbox": [
+      76.0,
+      266.16,
+      422.82,
+      277.96
+     ]
+    },
+    {
+     "line_id": "CR-p3-L12",
+     "line": 12,
+     "text": "LINDEN CREEK NEUROLOGY ASSOCIATES - TELEPHONE ENCOUNTER",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      302.72,
+      422.14,
+      314.52
+     ]
+    },
+    {
+     "line_id": "CR-p3-L13",
+     "line": 13,
+     "text": "Date: 07/20/2026 | Taken by: Nina Park, RN",
+     "style": "body",
+     "bbox": [
+      76.0,
+      319.32,
+      271.47,
+      331.12
+     ]
+    },
+    {
+     "line_id": "CR-p3-L14",
+     "line": 14,
+     "text": "Patient called. Nausea continues on the adjusted dose and she feels dizzy when standing up quickly. No",
+     "style": "body",
+     "bbox": [
+      76.0,
+      343.4,
+      537.91,
+      355.2
+     ]
+    },
+    {
+     "line_id": "CR-p3-L15",
+     "line": 15,
+     "text": "falls. Advised to keep taking the adjusted dose with food, drink fluids, and keep the 08/03/2026 visit.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      357.0,
+      516.8,
+      368.8
+     ]
+    },
+    {
+     "line_id": "CR-p3-L16",
+     "line": 16,
+     "text": "Message routed to Dr. Castellanos.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      370.6,
+      232.73,
+      382.4
+     ]
+    }
+   ]
+  },
+  {
+   "page": 4,
+   "lines": [
+    {
+     "line_id": "CR-p4-L1",
+     "line": 1,
+     "text": "LINDEN CREEK NEUROLOGY ASSOCIATES - FOLLOW-UP VISIT",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      87.2,
+      383.25,
+      99.0
+     ]
+    },
+    {
+     "line_id": "CR-p4-L2",
+     "line": 2,
+     "text": "Date of service: 08/03/2026 | Provider: Elena M. Castellanos, MD, Neurology",
+     "style": "body",
+     "bbox": [
+      76.0,
+      103.8,
+      415.96,
+      115.6
+     ]
+    },
+    {
+     "line_id": "CR-p4-L3",
+     "line": 3,
+     "text": "Interval history",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      132.88,
+      147.69,
+      144.68
+     ]
+    },
+    {
+     "line_id": "CR-p4-L4",
+     "line": 4,
+     "text": "Patient completed an eight-week trial of topiramate, 06/08/2026 to 08/03/2026. Treatment was",
+     "style": "body",
+     "bbox": [
+      76.0,
+      149.48,
+      492.33,
+      161.28
+     ]
+    },
+    {
+     "line_id": "CR-p4-L5",
+     "line": 5,
+     "text": "discontinued today due to significant nausea and dizziness, which were not tolerable despite dose",
+     "style": "body",
+     "bbox": [
+      76.0,
+      163.08,
+      509.0,
+      174.88
+     ]
+    },
+    {
+     "line_id": "CR-p4-L6",
+     "line": 6,
+     "text": "adjustment. Migraine frequency was unchanged, with 8 migraine days in July.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      176.68,
+      418.92,
+      188.48
+     ]
+    },
+    {
+     "line_id": "CR-p4-L7",
+     "line": 7,
+     "text": "Examination",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      198.28,
+      135.46,
+      210.08
+     ]
+    },
+    {
+     "line_id": "CR-p4-L8",
+     "line": 8,
+     "text": "BP 112/70, HR 72. Neurologic examination unchanged and nonfocal.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      214.88,
+      381.72,
+      226.68
+     ]
+    },
+    {
+     "line_id": "CR-p4-L9",
+     "line": 9,
+     "text": "Assessment and plan",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      236.48,
+      178.81,
+      248.28
+     ]
+    },
+    {
+     "line_id": "CR-p4-L10",
+     "line": 10,
+     "text": "Episodic migraine without aura, inadequately controlled. Topiramate stopped because of intolerance. A",
+     "style": "body",
+     "bbox": [
+      76.0,
+      253.08,
+      530.66,
+      264.88
+     ]
+    },
+    {
+     "line_id": "CR-p4-L11",
+     "line": 11,
+     "text": "beta blocker is avoided because of asthma. Recommend a CGRP monoclonal antibody. Will request prior",
+     "style": "body",
+     "bbox": [
+      76.0,
+      266.68,
+      542.85,
+      278.48
+     ]
+    },
+    {
+     "line_id": "CR-p4-L12",
+     "line": 12,
+     "text": "authorization for erenumab-aooe 70 mg once monthly. Continue sumatriptan as needed. Return in 6",
+     "style": "body",
+     "bbox": [
+      76.0,
+      280.28,
+      518.44,
+      292.08
+     ]
+    },
+    {
+     "line_id": "CR-p4-L13",
+     "line": 13,
+     "text": "weeks.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      293.88,
+      107.12,
+      305.68
+     ]
+    },
+    {
+     "line_id": "CR-p4-L14",
+     "line": 14,
+     "text": "Electronically signed: Elena M. Castellanos, MD, Neurology, 08/03/2026 10:21",
+     "style": "body",
+     "bbox": [
+      76.0,
+      317.96,
+      422.82,
+      329.76
+     ]
+    }
+   ]
+  },
+  {
+   "page": 5,
+   "lines": [
+    {
+     "line_id": "CR-p5-L1",
+     "line": 1,
+     "text": "LINDEN CREEK NEUROLOGY ASSOCIATES - FOLLOW-UP VISIT",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      87.2,
+      383.25,
+      99.0
+     ]
+    },
+    {
+     "line_id": "CR-p5-L2",
+     "line": 2,
+     "text": "Date of service: 09/14/2026 | Provider: Elena M. Castellanos, MD, Neurology",
+     "style": "body",
+     "bbox": [
+      76.0,
+      103.8,
+      415.96,
+      115.6
+     ]
+    },
+    {
+     "line_id": "CR-p5-L3",
+     "line": 3,
+     "text": "Interval history",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      132.88,
+      147.69,
+      144.68
+     ]
+    },
+    {
+     "line_id": "CR-p5-L4",
+     "line": 4,
+     "text": "Nausea and dizziness resolved within one week of stopping topiramate. Headache diary for June through",
+     "style": "body",
+     "bbox": [
+      76.0,
+      149.48,
+      541.22,
+      161.28
+     ]
+    },
+    {
+     "line_id": "CR-p5-L5",
+     "line": 5,
+     "text": "August 2026: 7 migraine days in June, 8 in July, and 9 in August. She missed 3 days of work in August.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      163.08,
+      532.9,
+      174.88
+     ]
+    },
+    {
+     "line_id": "CR-p5-L6",
+     "line": 6,
+     "text": "Plan",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      184.68,
+      97.12,
+      196.48
+     ]
+    },
+    {
+     "line_id": "CR-p5-L7",
+     "line": 7,
+     "text": "Prior authorization request for erenumab-aooe to be submitted 09/15/2026. Injection teaching completed",
+     "style": "body",
+     "bbox": [
+      76.0,
+      201.28,
+      537.35,
+      213.08
+     ]
+    },
+    {
+     "line_id": "CR-p5-L8",
+     "line": 8,
+     "text": "today.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      214.88,
+      103.24,
+      226.68
+     ]
+    },
+    {
+     "line_id": "CR-p5-L9",
+     "line": 9,
+     "text": "Medication list as of 09/14/2026",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      236.48,
+      224.4,
+      248.28
+     ]
+    },
+    {
+     "line_id": "CR-p5-L10",
+     "line": 10,
+     "text": "- Erenumab-aooe 70 mg subcutaneously once monthly - ordered by Elena M. Castellanos, MD",
+     "style": "body",
+     "bbox": [
+      88.0,
+      253.08,
+      505.95,
+      264.88
+     ]
+    },
+    {
+     "line_id": "CR-p5-L11",
+     "line": 11,
+     "text": "(Neurology); pending prior authorization.",
+     "style": "body",
+     "bbox": [
+      94.11,
+      266.68,
+      273.07,
+      278.48
+     ]
+    },
+    {
+     "line_id": "CR-p5-L12",
+     "line": 12,
+     "text": "- Sumatriptan 50 mg by mouth as needed for migraine, maximum 9 doses per month.",
+     "style": "body",
+     "bbox": [
+      88.0,
+      283.28,
+      464.82,
+      295.08
+     ]
+    },
+    {
+     "line_id": "CR-p5-L13",
+     "line": 13,
+     "text": "- Albuterol inhaler, 2 puffs as needed.",
+     "style": "body",
+     "bbox": [
+      88.0,
+      299.88,
+      254.2,
+      311.68
+     ]
+    },
+    {
+     "line_id": "CR-p5-L14",
+     "line": 14,
+     "text": "- Cetirizine 10 mg daily.",
+     "style": "body",
+     "bbox": [
+      88.0,
+      316.48,
+      192.47,
+      328.28
+     ]
+    },
+    {
+     "line_id": "CR-p5-L15",
+     "line": 15,
+     "text": "- Topiramate - discontinued 08/03/2026 (nausea, dizziness).",
+     "style": "body",
+     "bbox": [
+      88.0,
+      333.08,
+      354.23,
+      344.88
+     ]
+    },
+    {
+     "line_id": "CR-p5-L16",
+     "line": 16,
+     "text": "Electronically signed: Elena M. Castellanos, MD, Neurology, 09/14/2026 14:30",
+     "style": "body",
+     "bbox": [
+      76.0,
+      357.16,
+      422.82,
+      368.96
+     ]
+    }
+   ]
+  }
+ ]
+}

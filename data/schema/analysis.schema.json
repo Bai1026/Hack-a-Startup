@@ -1,0 +1,208 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "appealio/analysis.schema.json",
+  "title": "Appealio case analysis",
+  "description": "Output of the pipeline for one case, and the only thing the front end reads. analysis.gold.json in every case folder is a valid instance.",
+  "type": "object",
+  "required": ["schema_version", "case_id", "generated_by", "documents", "denial", "bases", "recommendation", "draft"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "case_id": {"type": "string"},
+    "generated_by": {"type": "string", "description": "\"gold\" for the answer key, otherwise pipeline name and model."},
+    "documents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["doc_id", "file", "title", "pages"],
+        "properties": {
+          "doc_id": {"type": "string", "description": "DL = denial letter, POL = payer policy, CR = clinical record."},
+          "file": {"type": "string"},
+          "title": {"type": "string"},
+          "pages": {"type": "integer", "minimum": 1},
+          "lines_file": {"type": "string"},
+          "text_file": {"type": "string"}
+        }
+      }
+    },
+    "denial": {
+      "type": "object",
+      "required": ["reason_text", "category", "source", "policy_ref"],
+      "additionalProperties": false,
+      "properties": {
+        "reason_text": {"type": "string", "description": "Verbatim from the denial letter."},
+        "category": {"type": "string"},
+        "source": {"$ref": "#/$defs/span"},
+        "policy_ref": {
+          "type": "object",
+          "required": ["policy_id", "title", "clause", "source"],
+          "additionalProperties": false,
+          "properties": {
+            "policy_id": {"type": "string"},
+            "title": {"type": "string"},
+            "clause": {"type": "string"},
+            "source": {"$ref": "#/$defs/span"}
+          }
+        }
+      }
+    },
+    "bases": {
+      "type": "array",
+      "minItems": 1,
+      "description": "First the basis the denial relies on (kind = stated), then any other pathway the same policy offers (kind = alternative).",
+      "items": {"$ref": "#/$defs/basis"}
+    },
+    "recommendation": {
+      "type": "object",
+      "required": ["type", "basis_id", "banner", "rationale", "human_actions"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {"enum": ["appeal_on_stated_basis", "appeal_on_alternative_basis", "obtain_documentation"]},
+        "basis_id": {"type": ["string", "null"]},
+        "banner": {"type": "string", "description": "The one sentence shown at the top of the screen."},
+        "rationale": {"type": "string"},
+        "human_actions": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "draft": {
+      "type": "object",
+      "required": ["basis_id", "status", "blocks"],
+      "additionalProperties": false,
+      "properties": {
+        "basis_id": {"type": ["string", "null"]},
+        "status": {"enum": ["ready_for_review", "blocked_on_gaps"]},
+        "blocks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["type", "text", "citations"],
+            "additionalProperties": false,
+            "properties": {
+              "type": {"enum": ["text", "claim", "gap"], "description": "text = framing with no factual claim about the record; claim = factual sentence, must cite evidence; gap = visible placeholder for something the record does not show."},
+              "text": {"type": "string"},
+              "citations": {"type": "array", "items": {"type": "string"}, "description": "evidence_id values."}
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "rect": {
+      "type": "array", "minItems": 4, "maxItems": 4, "items": {"type": "number"},
+      "description": "[x0, y0, x1, y1] in PDF points, origin at the top-left of the page."
+    },
+    "span": {
+      "type": "object",
+      "required": ["doc_id", "page", "line_start", "line_end", "rects"],
+      "additionalProperties": false,
+      "properties": {
+        "doc_id": {"type": "string"},
+        "page": {"type": "integer", "minimum": 1},
+        "line_start": {"type": "integer", "minimum": 1},
+        "line_end": {"type": "integer", "minimum": 1},
+        "rects": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/rect"}, "description": "One rectangle per line the passage touches."}
+      }
+    },
+    "basis": {
+      "type": "object",
+      "required": ["basis_id", "kind", "title", "clause", "policy_source", "requirements", "counts", "supportable"],
+      "additionalProperties": false,
+      "properties": {
+        "basis_id": {"type": "string"},
+        "kind": {"enum": ["stated", "alternative"]},
+        "title": {"type": "string"},
+        "clause": {"type": "string"},
+        "policy_source": {"$ref": "#/$defs/span"},
+        "requirements": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/requirement"}},
+        "counts": {
+          "type": "object",
+          "required": ["supported", "partial", "missing", "contradicted", "total"],
+          "additionalProperties": false,
+          "properties": {
+            "supported": {"type": "integer"}, "partial": {"type": "integer"},
+            "missing": {"type": "integer"}, "contradicted": {"type": "integer"},
+            "total": {"type": "integer"}
+          }
+        },
+        "supportable": {"type": "boolean", "description": "True only when every requirement is supported."}
+      }
+    },
+    "requirement": {
+      "type": "object",
+      "required": ["req_id", "clause", "text", "policy_source", "policy_text", "facets", "status", "evidence", "near_misses"],
+      "additionalProperties": false,
+      "properties": {
+        "req_id": {"type": "string"},
+        "clause": {"type": "string", "description": "Policy clause, for example \"§3.1(b)\". Used to match requirements against the answer key."},
+        "text": {"type": "string", "description": "Short paraphrase for the checklist."},
+        "policy_source": {"$ref": "#/$defs/span"},
+        "policy_text": {"type": "string", "description": "Verbatim clause text."},
+        "facets": {"type": "array", "minItems": 1, "items": {"type": "string"}, "description": "The separate things the record must show for this requirement."},
+        "status": {"enum": ["supported", "partial", "missing", "contradicted"]},
+        "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}},
+        "near_misses": {"type": "array", "items": {"$ref": "#/$defs/near_miss"}},
+        "quantity_check": {
+          "type": "object",
+          "required": ["label", "comparator", "required", "found", "unit", "passed", "evidence_id"],
+          "additionalProperties": false,
+          "properties": {
+            "label": {"type": "string"},
+            "comparator": {"enum": [">=", "<="]},
+            "required": {"type": "number"},
+            "found": {"type": ["number", "null"]},
+            "unit": {"type": "string"},
+            "passed": {"type": "boolean"},
+            "evidence_id": {"type": "string"}
+          }
+        },
+        "gap": {
+          "type": "object",
+          "required": ["summary", "what_would_satisfy", "suggested_action"],
+          "additionalProperties": false,
+          "properties": {
+            "summary": {"type": "string"},
+            "what_would_satisfy": {"type": "string"},
+            "suggested_action": {"type": "string"}
+          }
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "required": ["evidence_id", "source", "quote", "key_phrases", "rationale"],
+      "additionalProperties": false,
+      "properties": {
+        "evidence_id": {"type": "string"},
+        "source": {"$ref": "#/$defs/span"},
+        "quote": {"type": "string", "description": "Verbatim from the cited lines."},
+        "key_phrases": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["text", "facet", "rects"],
+            "additionalProperties": false,
+            "properties": {
+              "text": {"type": "string", "description": "Verbatim substring of quote."},
+              "facet": {"type": "string"},
+              "rects": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/rect"}}
+            }
+          }
+        },
+        "rationale": {"type": "string"}
+      }
+    },
+    "near_miss": {
+      "type": "object",
+      "required": ["source", "quote", "relation", "why_not"],
+      "additionalProperties": false,
+      "properties": {
+        "source": {"$ref": "#/$defs/span"},
+        "quote": {"type": "string"},
+        "relation": {"enum": ["insufficient", "off_target", "contradicts"]},
+        "why_not": {"type": "string"}
+      }
+    }
+  }
+}

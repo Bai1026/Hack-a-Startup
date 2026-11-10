@@ -1,0 +1,330 @@
+{
+ "doc_id": "DL",
+ "file": "denial_letter.pdf",
+ "title": "Denial letter",
+ "page_size": [
+  612.0,
+  792.0
+ ],
+ "coord_origin": "top-left",
+ "units": "pt",
+ "pages": [
+  {
+   "page": 1,
+   "lines": [
+    {
+     "line_id": "DL-p1-L1",
+     "line": 1,
+     "text": "NOTICE OF ADVERSE BENEFIT DETERMINATION",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      87.2,
+      313.24,
+      99.0
+     ]
+    },
+    {
+     "line_id": "DL-p1-L2",
+     "line": 2,
+     "text": "Date of notice: October 5, 2026",
+     "style": "body",
+     "bbox": [
+      76.0,
+      103.8,
+      214.97,
+      115.6
+     ]
+    },
+    {
+     "line_id": "DL-p1-L3",
+     "line": 3,
+     "text": "Member: Eleanor J. Kowalczyk | Date of birth: 05/02/1955",
+     "style": "body",
+     "bbox": [
+      76.0,
+      120.4,
+      331.49,
+      132.2
+     ]
+    },
+    {
+     "line_id": "DL-p1-L4",
+     "line": 4,
+     "text": "Requesting provider: Daniel K. Abernathy, MD, Fairmount Valley Medical Center",
+     "style": "body",
+     "bbox": [
+      76.0,
+      137.0,
+      431.68,
+      148.8
+     ]
+    },
+    {
+     "line_id": "DL-p1-L5",
+     "line": 5,
+     "text": "Reference number: B-3117",
+     "style": "body",
+     "bbox": [
+      76.0,
+      153.6,
+      196.61,
+      165.4
+     ]
+    },
+    {
+     "line_id": "DL-p1-L6",
+     "line": 6,
+     "text": "Service requested",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      182.68,
+      162.15,
+      194.48
+     ]
+    },
+    {
+     "line_id": "DL-p1-L7",
+     "line": 7,
+     "text": "Home health services: skilled nursing (12 visits) and physical therapy (18 visits) over a 60-day episode",
+     "style": "body",
+     "bbox": [
+      76.0,
+      199.28,
+      528.38,
+      211.08
+     ]
+    },
+    {
+     "line_id": "DL-p1-L8",
+     "line": 8,
+     "text": "starting 10/02/2026. Request received 10/01/2026.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      212.88,
+      300.58,
+      224.68
+     ]
+    },
+    {
+     "line_id": "DL-p1-L9",
+     "line": 9,
+     "text": "Decision",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      241.96,
+      117.68,
+      253.76
+     ]
+    },
+    {
+     "line_id": "DL-p1-L10",
+     "line": 10,
+     "text": "This request is DENIED.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      258.56,
+      184.36,
+      270.36
+     ]
+    },
+    {
+     "line_id": "DL-p1-L11",
+     "line": 11,
+     "text": "Reason for denial",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      287.64,
+      159.91,
+      299.44
+     ]
+    },
+    {
+     "line_id": "DL-p1-L12",
+     "line": 12,
+     "text": "The requested home health services are not medically necessary. The records we received do not",
+     "style": "body",
+     "bbox": [
+      76.0,
+      304.24,
+      510.07,
+      316.04
+     ]
+    },
+    {
+     "line_id": "DL-p1-L13",
+     "line": 13,
+     "text": "document that the member is homebound.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      317.84,
+      263.87,
+      329.64
+     ]
+    },
+    {
+     "line_id": "DL-p1-L14",
+     "line": 14,
+     "text": "Policy applied",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      346.92,
+      143.25,
+      358.72
+     ]
+    },
+    {
+     "line_id": "DL-p1-L15",
+     "line": 15,
+     "text": "Alderpoint Medical Policy MP-HH-007, Home Health Services, Section 3.1(c). A copy of the policy is",
+     "style": "body",
+     "bbox": [
+      76.0,
+      363.52,
+      517.81,
+      375.32
+     ]
+    },
+    {
+     "line_id": "DL-p1-L16",
+     "line": 16,
+     "text": "enclosed.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      377.12,
+      118.8,
+      388.92
+     ]
+    },
+    {
+     "line_id": "DL-p1-L17",
+     "line": 17,
+     "text": "Information reviewed",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      406.2,
+      176.58,
+      418.0
+     ]
+    },
+    {
+     "line_id": "DL-p1-L18",
+     "line": 18,
+     "text": "Prior authorization request dated 10/01/2026, the face-to-face encounter and home health order form, and",
+     "style": "body",
+     "bbox": [
+      76.0,
+      422.8,
+      544.59,
+      434.6
+     ]
+    },
+    {
+     "line_id": "DL-p1-L19",
+     "line": 19,
+     "text": "the inpatient physical therapy evaluation.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      436.4,
+      256.65,
+      448.2
+     ]
+    },
+    {
+     "line_id": "DL-p1-L20",
+     "line": 20,
+     "text": "Your appeal rights",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      465.48,
+      163.8,
+      477.28
+     ]
+    },
+    {
+     "line_id": "DL-p1-L21",
+     "line": 21,
+     "text": "You or your provider may ask for an internal appeal within 180 days of the date of this notice. Send the",
+     "style": "body",
+     "bbox": [
+      76.0,
+      482.08,
+      529.57,
+      493.88
+     ]
+    },
+    {
+     "line_id": "DL-p1-L22",
+     "line": 22,
+     "text": "appeal and supporting records to Alderpoint Appeals Department, PO Box 0000, Example City, ST 00000,",
+     "style": "body",
+     "bbox": [
+      76.0,
+      495.68,
+      545.12,
+      507.48
+     ]
+    },
+    {
+     "line_id": "DL-p1-L23",
+     "line": 23,
+     "text": "or fax 555-0142. An expedited appeal is available when a delay could seriously jeopardize the member's",
+     "style": "body",
+     "bbox": [
+      76.0,
+      509.28,
+      537.57,
+      521.08
+     ]
+    },
+    {
+     "line_id": "DL-p1-L24",
+     "line": 24,
+     "text": "health.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      522.88,
+      106.02,
+      534.68
+     ]
+    },
+    {
+     "line_id": "DL-p1-L25",
+     "line": 25,
+     "text": "If the denial is upheld, you may have the right to an independent external review.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      539.48,
+      432.86,
+      551.28
+     ]
+    },
+    {
+     "line_id": "DL-p1-L26",
+     "line": 26,
+     "text": "Reviewed by: Medical Director, Utilization Management",
+     "style": "body",
+     "bbox": [
+      76.0,
+      563.56,
+      321.07,
+      575.36
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+  "description": "Timed click-through for the recorded demo. The front end's autoplay mode (?autoplay=45) replays these steps so every take is identical. Times are seconds from start. A step with a \"cuts\" list runs only in those cuts; a step without one runs in all three.",
+  "case_id": "B-3117",
+  "cuts": {"30": 30, "45": 45, "60": 60},
+  "steps": [
+    {"t": 0.0,  "action": "open_case", "case_id": "B-3117",
+     "say": "Home health was denied. The insurer says the record does not show the patient is homebound."},
+    {"t": 3.0,  "action": "show_source", "target": "denial.source",
+     "note": "Letter tab, denial reason highlighted (DL p1 L12-13)."},
+    {"t": 6.0,  "action": "run_analysis",
+     "note": "Requirement rows resolve one at a time, about 300 ms apart, then the banner slides in."},
+    {"t": 10.0, "action": "select_evidence", "target": "R2-E1", "cuts": ["45", "60"],
+     "say": "Appealio breaks the policy into requirements and links each one to the exact lines in the record.",
+     "note": "Record tab jumps to p5 L10-11. Key phrases highlighted."},
+    {"t": 18.0, "action": "select_requirement", "target": "R3",
+     "say": "For homebound status, nothing qualifies. The form section was left blank. So it says evidence missing. It does not write around the gap.",
+     "note": "Missing-evidence card opens with 3 closest passages."},
+    {"t": 22.0, "action": "select_near_miss", "target": "R3", "index": 0,
+     "note": "Record tab jumps to p5 L16, dashed gray outline on the blank form field."},
+    {"t": 28.0, "action": "use_basis", "target": "ALT-1",
+     "say": "The same policy covers home care in place of a facility stay, and the record supports all three conditions.",
+     "note": "Banner button. Alternative group expands, 3 of 3 supported."},
+    {"t": 32.0, "action": "select_evidence", "target": "A3-E1",
+     "say": "Including cost: 4,350 dollars at home against 10,400 in a facility.",
+     "note": "Record tab jumps to p6 L14-15, both cost figures highlighted."},
+    {"t": 39.0, "action": "focus_draft",
+     "say": "The draft says only what the record shows. Every sentence links back. Staff review and submit.",
+     "note": "Draft panel pulses; hover the citation chip on the cost sentence."},
+    {"t": 45.0, "action": "end", "cuts": ["30", "45"]},
+    {"t": 45.0, "action": "open_case", "case_id": "C-4420", "cuts": ["60"],
+     "say": "And when the record does not support any route, it says that too."},
+    {"t": 48.0, "action": "run_analysis", "cuts": ["60"]},
+    {"t": 51.0, "action": "select_requirement", "target": "R2", "cuts": ["60"],
+     "say": "Four of six weeks of therapy documented. No alternative basis. Next step: get the missing records.",
+     "note": "Partial card with the quantity check: 4 of 6 weeks."},
+    {"t": 60.0, "action": "end", "cuts": ["60"]}
+  ],
+  "cut_notes": {
+    "30": "Compress by dropping the 10.0 step and shortening holds: 0, 2, 4, 9 (R3), 12 (near miss), 16 (use_basis), 19 (A3-E1), 24 (draft), 30 (end). The front end should scale the shared steps to fit the cut length.",
+    "45": "The default. One case, three beats: linked evidence, honest gap, alternative basis.",
+    "60": "Adds case C-4420 to show the system declining to recommend an appeal."
+  }
+}

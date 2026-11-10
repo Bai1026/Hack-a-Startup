@@ -1,0 +1,342 @@
+{
+ "doc_id": "DL",
+ "file": "denial_letter.pdf",
+ "title": "Denial letter",
+ "page_size": [
+  612.0,
+  792.0
+ ],
+ "coord_origin": "top-left",
+ "units": "pt",
+ "pages": [
+  {
+   "page": 1,
+   "lines": [
+    {
+     "line_id": "DL-p1-L1",
+     "line": 1,
+     "text": "NOTICE OF ADVERSE BENEFIT DETERMINATION",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      87.2,
+      313.24,
+      99.0
+     ]
+    },
+    {
+     "line_id": "DL-p1-L2",
+     "line": 2,
+     "text": "Date of notice: September 22, 2026",
+     "style": "body",
+     "bbox": [
+      76.0,
+      103.8,
+      233.87,
+      115.6
+     ]
+    },
+    {
+     "line_id": "DL-p1-L3",
+     "line": 3,
+     "text": "Member: Dana R. Whitfield | Date of birth: 03/14/1988",
+     "style": "body",
+     "bbox": [
+      76.0,
+      120.4,
+      314.26,
+      132.2
+     ]
+    },
+    {
+     "line_id": "DL-p1-L4",
+     "line": 4,
+     "text": "Requesting provider: Elena M. Castellanos, MD, Linden Creek Neurology Associates",
+     "style": "body",
+     "bbox": [
+      76.0,
+      137.0,
+      451.14,
+      148.8
+     ]
+    },
+    {
+     "line_id": "DL-p1-L5",
+     "line": 5,
+     "text": "Reference number: A-2048",
+     "style": "body",
+     "bbox": [
+      76.0,
+      153.6,
+      196.61,
+      165.4
+     ]
+    },
+    {
+     "line_id": "DL-p1-L6",
+     "line": 6,
+     "text": "Service requested",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      182.68,
+      162.15,
+      194.48
+     ]
+    },
+    {
+     "line_id": "DL-p1-L7",
+     "line": 7,
+     "text": "Erenumab-aooe 70 mg subcutaneous injection, once monthly, for 12 months. Request received",
+     "style": "body",
+     "bbox": [
+      76.0,
+      199.28,
+      497.87,
+      211.08
+     ]
+    },
+    {
+     "line_id": "DL-p1-L8",
+     "line": 8,
+     "text": "09/15/2026.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      212.88,
+      128.82,
+      224.68
+     ]
+    },
+    {
+     "line_id": "DL-p1-L9",
+     "line": 9,
+     "text": "Decision",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      241.96,
+      117.68,
+      253.76
+     ]
+    },
+    {
+     "line_id": "DL-p1-L10",
+     "line": 10,
+     "text": "This request is DENIED.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      258.56,
+      184.36,
+      270.36
+     ]
+    },
+    {
+     "line_id": "DL-p1-L11",
+     "line": 11,
+     "text": "Reason for denial",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      287.64,
+      159.91,
+      299.44
+     ]
+    },
+    {
+     "line_id": "DL-p1-L12",
+     "line": 12,
+     "text": "Insufficient documentation of prior treatment failure. The information we received does not show that the",
+     "style": "body",
+     "bbox": [
+      76.0,
+      304.24,
+      535.66,
+      316.04
+     ]
+    },
+    {
+     "line_id": "DL-p1-L13",
+     "line": 13,
+     "text": "member completed a trial of a preferred oral preventive medication, or that the trial was ineffective or not",
+     "style": "body",
+     "bbox": [
+      76.0,
+      317.84,
+      537.3,
+      329.64
+     ]
+    },
+    {
+     "line_id": "DL-p1-L14",
+     "line": 14,
+     "text": "tolerated.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      331.44,
+      117.69,
+      343.24
+     ]
+    },
+    {
+     "line_id": "DL-p1-L15",
+     "line": 15,
+     "text": "Policy applied",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      360.52,
+      143.25,
+      372.32
+     ]
+    },
+    {
+     "line_id": "DL-p1-L16",
+     "line": 16,
+     "text": "Alderpoint Medical Policy MP-RX-014, CGRP Antagonists for Migraine Prevention, Section 3.1. A copy of",
+     "style": "body",
+     "bbox": [
+      76.0,
+      377.12,
+      541.18,
+      388.92
+     ]
+    },
+    {
+     "line_id": "DL-p1-L17",
+     "line": 17,
+     "text": "the policy is enclosed.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      390.72,
+      173.82,
+      402.52
+     ]
+    },
+    {
+     "line_id": "DL-p1-L18",
+     "line": 18,
+     "text": "Information reviewed",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      419.8,
+      176.58,
+      431.6
+     ]
+    },
+    {
+     "line_id": "DL-p1-L19",
+     "line": 19,
+     "text": "Prior authorization request form dated 09/15/2026 and the pharmacy claims history. No chart notes were",
+     "style": "body",
+     "bbox": [
+      76.0,
+      436.4,
+      537.87,
+      448.2
+     ]
+    },
+    {
+     "line_id": "DL-p1-L20",
+     "line": 20,
+     "text": "received with the request.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      450.0,
+      189.94,
+      461.8
+     ]
+    },
+    {
+     "line_id": "DL-p1-L21",
+     "line": 21,
+     "text": "Your appeal rights",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      479.08,
+      163.8,
+      490.88
+     ]
+    },
+    {
+     "line_id": "DL-p1-L22",
+     "line": 22,
+     "text": "You or your provider may ask for an internal appeal within 180 days of the date of this notice. Send the",
+     "style": "body",
+     "bbox": [
+      76.0,
+      495.68,
+      529.57,
+      507.48
+     ]
+    },
+    {
+     "line_id": "DL-p1-L23",
+     "line": 23,
+     "text": "appeal and supporting records to Alderpoint Appeals Department, PO Box 0000, Example City, ST 00000,",
+     "style": "body",
+     "bbox": [
+      76.0,
+      509.28,
+      545.12,
+      521.08
+     ]
+    },
+    {
+     "line_id": "DL-p1-L24",
+     "line": 24,
+     "text": "or fax 555-0142. An expedited appeal is available when a delay could seriously jeopardize the member's",
+     "style": "body",
+     "bbox": [
+      76.0,
+      522.88,
+      537.57,
+      534.68
+     ]
+    },
+    {
+     "line_id": "DL-p1-L25",
+     "line": 25,
+     "text": "health.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      536.48,
+      106.02,
+      548.28
+     ]
+    },
+    {
+     "line_id": "DL-p1-L26",
+     "line": 26,
+     "text": "If the denial is upheld, you may have the right to an independent external review.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      553.08,
+      432.86,
+      564.88
+     ]
+    },
+    {
+     "line_id": "DL-p1-L27",
+     "line": 27,
+     "text": "Reviewed by: Medical Director, Pharmacy Utilization Management",
+     "style": "body",
+     "bbox": [
+      76.0,
+      577.16,
+      368.86,
+      588.96
+     ]
+    }
+   ]
+  }
+ ]
+}

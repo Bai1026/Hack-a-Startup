@@ -1,0 +1,845 @@
+{
+ "schema_version": "1.0",
+ "case_id": "C-4420",
+ "generated_by": "pipeline (claude-sonnet-5-5)",
+ "documents": [
+  {
+   "doc_id": "DL",
+   "file": "denial_letter.pdf",
+   "title": "Denial letter",
+   "pages": 1,
+   "lines_file": "lines/denial_letter.lines.json",
+   "text_file": "text/denial_letter.lined.txt"
+  },
+  {
+   "doc_id": "POL",
+   "file": "policy.pdf",
+   "title": "Payer policy MP-RAD-022",
+   "pages": 1,
+   "lines_file": "lines/policy.lines.json",
+   "text_file": "text/policy.lined.txt"
+  },
+  {
+   "doc_id": "CR",
+   "file": "clinical_record.pdf",
+   "title": "Clinical record",
+   "pages": 5,
+   "lines_file": "lines/clinical_record.lines.json",
+   "text_file": "text/clinical_record.lined.txt"
+  }
+ ],
+ "denial": {
+  "reason_text": "Conservative therapy requirement not met. The records do not document at least 6 weeks of physical therapy or a supervised home exercise program.",
+  "category": "conservative_therapy_not_met",
+  "source": {
+   "doc_id": "DL",
+   "page": 1,
+   "line_start": 11,
+   "line_end": 12,
+   "rects": [
+    [
+     76.0,
+     290.64,
+     523.42,
+     302.44
+    ],
+    [
+     76.0,
+     304.24,
+     291.08,
+     316.04
+    ]
+   ]
+  },
+  "policy_ref": {
+   "policy_id": "MP-RAD-022",
+   "title": "MRI of the Lumbar Spine",
+   "clause": "§3.1(b)",
+   "source": {
+    "doc_id": "DL",
+    "page": 1,
+    "line_start": 14,
+    "line_end": 14,
+    "rects": [
+     [
+      76.0,
+      349.92,
+      536.73,
+      361.72
+     ]
+    ]
+   }
+  }
+ },
+ "bases": [
+  {
+   "basis_id": "STATED",
+   "kind": "stated",
+   "title": "Low back pain with or without leg symptoms",
+   "clause": "§3.1",
+   "policy_source": {
+    "doc_id": "POL",
+    "page": 1,
+    "line_start": 9,
+    "line_end": 10,
+    "rects": [
+     [
+      76.0,
+      238.96,
+      541.72,
+      250.76
+     ],
+     [
+      76.0,
+      252.56,
+      220.52,
+      264.36
+     ]
+    ]
+   },
+   "requirements": [
+    {
+     "req_id": "R1",
+     "clause": "§3.1(a)",
+     "text": "Symptoms present for at least 6 weeks",
+     "policy_source": {
+      "doc_id": "POL",
+      "page": 1,
+      "line_start": 11,
+      "line_end": 11,
+      "rects": [
+       [
+        107.0,
+        269.16,
+        331.55,
+        280.96
+       ]
+      ]
+     },
+     "policy_text": "Symptoms have been present for at least 6 weeks.",
+     "facets": [
+      "symptom_duration"
+     ],
+     "status": "supported",
+     "evidence": [
+      {
+       "evidence_id": "R1-E1",
+       "source": {
+        "doc_id": "CR",
+        "page": 5,
+        "line_start": 5,
+        "line_end": 5,
+        "rects": [
+         [
+          191.04,
+          163.08,
+          546.79,
+          174.88
+         ]
+        ]
+       },
+       "quote": "Symptoms have now been present for about 8 weeks, with onset on 08/10/2026.",
+       "key_phrases": [
+        {
+         "text": "about 8 weeks",
+         "facet": "symptom_duration",
+         "rects": [
+          [
+           362.23,
+           163.08,
+           426.71,
+           174.88
+          ]
+         ]
+        },
+        {
+         "text": "onset on 08/10/2026",
+         "facet": "symptom_duration",
+         "rects": [
+          [
+           452.83,
+           163.08,
+           544.01,
+           174.88
+          ]
+         ]
+        }
+       ],
+       "rationale": "The treating physician states on 10/06/2026 that symptoms have lasted about 8 weeks, with a documented onset date."
+      }
+     ],
+     "near_misses": [
+      {
+       "source": {
+        "doc_id": "CR",
+        "page": 1,
+        "line_start": 6,
+        "line_end": 6,
+        "rects": [
+         [
+          232.72,
+          187.68,
+          541.24,
+          199.48
+         ]
+        ]
+       },
+       "quote": "Low back pain began about 08/10/2026 after he lifted a pallet at work.",
+       "relation": "insufficient",
+       "why_not": "This gives only the onset date, in a note written about two weeks after onset, so it does not show a duration of 6 weeks by itself."
+      },
+      {
+       "source": {
+        "doc_id": "CR",
+        "page": 3,
+        "line_start": 4,
+        "line_end": 4,
+        "rects": [
+         [
+          76.0,
+          149.48,
+          331.64,
+          161.28
+         ]
+        ]
+       },
+       "quote": "Right-sided low back pain with leg symptoms for 3 weeks.",
+       "relation": "insufficient",
+       "why_not": "This states the duration as of the 09/01/2026 physical therapy evaluation, which is a past point in time and under 6 weeks."
+      },
+      {
+       "source": {
+        "doc_id": "CR",
+        "page": 1,
+        "line_start": 21,
+        "line_end": 21,
+        "rects": [
+         [
+          94.11,
+          444.68,
+          387.0,
+          456.48
+         ]
+        ]
+       },
+       "quote": "Return in 6 weeks, sooner for leg weakness or bladder symptoms.",
+       "relation": "off_target",
+       "why_not": "The 6 weeks here is a follow-up interval in the plan, not a duration of symptoms."
+      }
+     ],
+     "quantity_check": {
+      "label": "duration of symptoms",
+      "comparator": ">=",
+      "required": 6,
+      "found": 8,
+      "unit": "weeks",
+      "passed": true,
+      "evidence_id": "R1-E1"
+     }
+    },
+    {
+     "req_id": "R2",
+     "clause": "§3.1(b)",
+     "text": "At least 6 weeks of PT or supervised home exercise, within 3 months before request",
+     "policy_source": {
+      "doc_id": "POL",
+      "page": 1,
+      "line_start": 12,
+      "line_end": 13,
+      "rects": [
+       [
+        107.0,
+        285.76,
+        512.16,
+        297.56
+       ],
+       [
+        92.0,
+        299.36,
+        304.88,
+        311.16
+       ]
+      ]
+     },
+     "policy_text": "The member completed at least 6 weeks of physical therapy or a supervised home exercise program within the 3 months before the request.",
+     "facets": [
+      "therapy_duration_completed",
+      "therapy_within_3_months"
+     ],
+     "status": "partial",
+     "evidence": [
+      {
+       "evidence_id": "R2-E1",
+       "source": {
+        "doc_id": "CR",
+        "page": 4,
+        "line_start": 4,
+        "line_end": 4,
+        "rects": [
+         [
+          76.0,
+          149.48,
+          525.18,
+          161.28
+         ]
+        ]
+       },
+       "quote": "The patient attended 8 of 12 planned visits between 09/01/2026 and 09/29/2026, a period of 4 weeks.",
+       "key_phrases": [
+        {
+         "text": "a period of 4 weeks",
+         "facet": "therapy_duration_completed",
+         "rects": [
+          [
+           435.69,
+           149.48,
+           522.4,
+           161.28
+          ]
+         ]
+        },
+        {
+         "text": "between 09/01/2026 and 09/29/2026",
+         "facet": "therapy_within_3_months",
+         "rects": [
+          [
+           267.23,
+           149.48,
+           430.13,
+           161.28
+          ]
+         ]
+        }
+       ],
+       "rationale": "The PT discharge note documents the therapy actually completed (8 visits over 4 weeks) and the dates it took place, shortly before the 10/06/2026 MRI order."
+      }
+     ],
+     "near_misses": [
+      {
+       "source": {
+        "doc_id": "CR",
+        "page": 3,
+        "line_start": 13,
+        "line_end": 13,
+        "rects": [
+         [
+          76.0,
+          304.88,
+          328.3,
+          316.68
+         ]
+        ]
+       },
+       "quote": "Physical therapy 2 visits per week for 6 weeks (12 visits).",
+       "relation": "insufficient",
+       "why_not": "This is the planned course of care at the initial evaluation, not therapy completed, and the discharge note shows only 4 weeks were done."
+      },
+      {
+       "source": {
+        "doc_id": "CR",
+        "page": 5,
+        "line_start": 6,
+        "line_end": 7,
+        "rects": [
+         [
+          412.78,
+          176.68,
+          522.28,
+          188.48
+         ],
+         [
+          76.0,
+          190.28,
+          332.76,
+          202.08
+         ]
+        ]
+       },
+       "quote": "He says he has done his home exercises most days since leaving physical therapy.",
+       "relation": "insufficient",
+       "why_not": "This is the patient's own report of an unsupervised home program with no duration or clinician verification, so it does not show a supervised home exercise program of 6 weeks."
+      },
+      {
+       "source": {
+        "doc_id": "CR",
+        "page": 5,
+        "line_start": 13,
+        "line_end": 13,
+        "rects": [
+         [
+          76.0,
+          293.88,
+          415.03,
+          305.68
+         ]
+        ]
+       },
+       "quote": "Right lumbar radiculopathy, persistent after medication and physical therapy.",
+       "relation": "insufficient",
+       "why_not": "The assessment mentions physical therapy but gives no duration or dates, so it cannot show 6 weeks were completed."
+      }
+     ],
+     "quantity_check": {
+      "label": "physical therapy or supervised home exercise program completed",
+      "comparator": ">=",
+      "required": 6,
+      "found": 4,
+      "unit": "weeks",
+      "passed": false,
+      "evidence_id": "R2-E1"
+     },
+     "gap": {
+      "summary": "4 of 6 weeks documented.",
+      "what_would_satisfy": "A clinician's documentation of at least 6 weeks of physical therapy or a supervised home exercise program within the 3 months before the request, such as additional PT visits or dated clinician follow-up of the home program that brings the supervised total to 6 weeks or more.",
+      "suggested_action": "Ask Stride Physical Therapy (Carlos Mendes, PT) whether any further supervised sessions or home-program check-ins after 09/29/2026 are documented. Ask Dr. Ashworth's office whether she supervised or monitored the home exercise program, and request any such records."
+     }
+    },
+    {
+     "req_id": "R3",
+     "clause": "§3.1(c)",
+     "text": "At least 4 weeks of anti-inflammatory or analgesic medication, unless contraindicated",
+     "policy_source": {
+      "doc_id": "POL",
+      "page": 1,
+      "line_start": 14,
+      "line_end": 15,
+      "rects": [
+       [
+        106.44,
+        315.96,
+        543.27,
+        327.76
+       ],
+       [
+        92.0,
+        329.56,
+        194.27,
+        341.36
+       ]
+      ]
+     },
+     "policy_text": "The member completed a trial of an anti-inflammatory or analgesic medication for at least 4 weeks, unless contraindicated.",
+     "facets": [
+      "medication_trial"
+     ],
+     "status": "supported",
+     "evidence": [
+      {
+       "evidence_id": "R3-E1",
+       "source": {
+        "doc_id": "CR",
+        "page": 5,
+        "line_start": 6,
+        "line_end": 6,
+        "rects": [
+         [
+          76.0,
+          176.68,
+          410.0,
+          188.48
+         ]
+        ]
+       },
+       "quote": "He has taken naproxen 500 mg twice daily for six weeks with minimal relief.",
+       "key_phrases": [
+        {
+         "text": "naproxen 500 mg twice daily",
+         "facet": "medication_trial",
+         "rects": [
+          [
+           137.7,
+           176.68,
+           264.42,
+           188.48
+          ]
+         ]
+        },
+        {
+         "text": "for six weeks",
+         "facet": "medication_trial",
+         "rects": [
+          [
+           267.2,
+           176.68,
+           324.99,
+           188.48
+          ]
+         ]
+        }
+       ],
+       "rationale": "The treating physician's 10/06/2026 note documents a completed naproxen course (an anti-inflammatory) of six weeks' duration."
+      }
+     ],
+     "near_misses": [
+      {
+       "source": {
+        "doc_id": "CR",
+        "page": 1,
+        "line_start": 18,
+        "line_end": 18,
+        "rects": [
+         [
+          94.11,
+          394.88,
+          290.31,
+          406.68
+         ]
+        ]
+       },
+       "quote": "Start naproxen 500 mg twice daily with food.",
+       "relation": "insufficient",
+       "why_not": "This is a plan to begin naproxen on 08/24/2026 and does not document how long it was taken."
+      },
+      {
+       "source": {
+        "doc_id": "CR",
+        "page": 1,
+        "line_start": 8,
+        "line_end": 8,
+        "rects": [
+         [
+          117.14,
+          214.88,
+          410.61,
+          226.68
+         ]
+        ]
+       },
+       "quote": "He took a few doses of over-the-counter ibuprofen with little effect.",
+       "relation": "insufficient",
+       "why_not": "Only a few doses of ibuprofen are reported, with no duration, so this is not a trial of at least 4 weeks."
+      },
+      {
+       "source": {
+        "doc_id": "CR",
+        "page": 5,
+        "line_start": 13,
+        "line_end": 13,
+        "rects": [
+         [
+          76.0,
+          293.88,
+          415.03,
+          305.68
+         ]
+        ]
+       },
+       "quote": "Right lumbar radiculopathy, persistent after medication and physical therapy.",
+       "relation": "insufficient",
+       "why_not": "It refers to medication generally and gives no drug or duration."
+      }
+     ],
+     "quantity_check": {
+      "label": "anti-inflammatory or analgesic medication trial",
+      "comparator": ">=",
+      "required": 4,
+      "found": 6,
+      "unit": "weeks",
+      "passed": true,
+      "evidence_id": "R3-E1"
+     }
+    },
+    {
+     "req_id": "R4",
+     "clause": "§3.1(d)",
+     "text": "Re-evaluation after conservative therapy shows symptoms persist",
+     "policy_source": {
+      "doc_id": "POL",
+      "page": 1,
+      "line_start": 16,
+      "line_end": 16,
+      "rects": [
+       [
+        107.0,
+        346.16,
+        473.8,
+        357.96
+       ]
+      ]
+     },
+     "policy_text": "A clinical re-evaluation after conservative therapy documents persistent symptoms.",
+     "facets": [
+      "re_evaluation_after_therapy",
+      "persistent_symptoms"
+     ],
+     "status": "supported",
+     "evidence": [
+      {
+       "evidence_id": "R4-E1",
+       "source": {
+        "doc_id": "CR",
+        "page": 5,
+        "line_start": 4,
+        "line_end": 5,
+        "rects": [
+         [
+          76.0,
+          149.48,
+          539.55,
+          161.28
+         ],
+         [
+          76.0,
+          163.08,
+          188.26,
+          174.88
+         ]
+        ]
+       },
+       "quote": "Re-evaluation after conservative therapy: right-sided low back and leg pain persists at 6 out of 10 with no meaningful improvement.",
+       "key_phrases": [
+        {
+         "text": "Re-evaluation after conservative therapy",
+         "facet": "re_evaluation_after_therapy",
+         "rects": [
+          [
+           76.0,
+           149.48,
+           255.52,
+           161.28
+          ]
+         ]
+        },
+        {
+         "text": "pain persists at 6 out of 10",
+         "facet": "persistent_symptoms",
+         "rects": [
+          [
+           387.8,
+           149.48,
+           505.09,
+           161.28
+          ]
+         ]
+        }
+       ],
+       "rationale": "The treating physician's 10/06/2026 visit note is labelled a re-evaluation after conservative therapy and states that the pain persists without meaningful improvement."
+      }
+     ],
+     "near_misses": [
+      {
+       "source": {
+        "doc_id": "CR",
+        "page": 4,
+        "line_start": 11,
+        "line_end": 12,
+        "rects": [
+         [
+          447.84,
+          269.68,
+          512.86,
+          281.48
+         ],
+         [
+          76.0,
+          283.28,
+          236.07,
+          295.08
+         ]
+        ]
+       },
+       "quote": "Leg symptoms unchanged. Minimal overall change.",
+       "relation": "insufficient",
+       "why_not": "This is the physical therapist's discharge status, not a clinician re-evaluation after the full course of conservative therapy, though it supports the persistence of symptoms."
+      }
+     ]
+    }
+   ],
+   "counts": {
+    "supported": 3,
+    "partial": 1,
+    "missing": 0,
+    "contradicted": 0,
+    "total": 4
+   },
+   "supportable": false
+  },
+  {
+   "basis_id": "ALT-1",
+   "kind": "alternative",
+   "title": "Red-flag exception",
+   "clause": "§3.2",
+   "policy_source": {
+    "doc_id": "POL",
+    "page": 1,
+    "line_start": 17,
+    "line_end": 19,
+    "rects": [
+     [
+      76.0,
+      362.76,
+      538.45,
+      374.56
+     ],
+     [
+      76.0,
+      376.36,
+      538.42,
+      388.16
+     ],
+     [
+      76.0,
+      389.96,
+      202.72,
+      401.76
+     ]
+    ]
+   },
+   "requirements": [
+    {
+     "req_id": "A1",
+     "clause": "§3.2",
+     "text": "Record documents a red-flag condition, waiving criteria 3.1(a) through (d)",
+     "policy_source": {
+      "doc_id": "POL",
+      "page": 1,
+      "line_start": 17,
+      "line_end": 19,
+      "rects": [
+       [
+        395.04,
+        362.76,
+        538.45,
+        374.56
+       ],
+       [
+        76.0,
+        376.36,
+        538.42,
+        388.16
+       ],
+       [
+        76.0,
+        389.96,
+        202.72,
+        401.76
+       ]
+      ]
+     },
+     "policy_text": "the record documents any of the following: progressive motor weakness; bowel or bladder dysfunction or saddle anesthesia; or suspected cancer, infection, or fracture.",
+     "facets": [
+      "red_flag_documented"
+     ],
+     "status": "contradicted",
+     "evidence": [],
+     "near_misses": [
+      {
+       "source": {
+        "doc_id": "CR",
+        "page": 5,
+        "line_start": 10,
+        "line_end": 10,
+        "rects": [
+         [
+          76.0,
+          242.08,
+          544.01,
+          253.88
+         ]
+        ]
+       },
+       "quote": "He denies bowel or bladder dysfunction, fever, and unexplained weight loss, and has no history of cancer.",
+       "relation": "contradicts",
+       "why_not": "The most recent exam states that bowel or bladder dysfunction, fever, weight loss and cancer history are absent, so none of the listed red flags is documented."
+      },
+      {
+       "source": {
+        "doc_id": "CR",
+        "page": 5,
+        "line_start": 9,
+        "line_end": 9,
+        "rects": [
+         [
+          310.01,
+          228.48,
+          532.91,
+          240.28
+         ]
+        ]
+       },
+       "quote": "Strength is 5/5 in both legs. No saddle anesthesia.",
+       "relation": "contradicts",
+       "why_not": "Strength is normal, so there is no motor weakness, and saddle anesthesia is explicitly absent."
+      },
+      {
+       "source": {
+        "doc_id": "CR",
+        "page": 5,
+        "line_start": 11,
+        "line_end": 11,
+        "rects": [
+         [
+          76.0,
+          255.68,
+          489.52,
+          267.48
+         ]
+        ]
+       },
+       "quote": "Sensation is mildly reduced over the outer right foot. Ankle reflex slightly reduced on the right.",
+       "relation": "insufficient",
+       "why_not": "These are mild sensory and reflex findings consistent with radiculopathy. They are not progressive motor weakness, bowel or bladder dysfunction, saddle anesthesia, or suspected cancer, infection or fracture."
+      }
+     ],
+     "gap": {
+      "summary": "No red flag under §3.2 is documented: the record explicitly denies bowel or bladder dysfunction, saddle anesthesia, fever, weight loss and cancer history, shows normal 5/5 strength, and shows no fracture on X-ray.",
+      "what_would_satisfy": "A clinician note documenting progressive motor weakness, bowel or bladder dysfunction or saddle anesthesia, or a suspected cancer, infection or fracture, if any of these is actually present.",
+      "suggested_action": "Ask Dr. Ashworth whether any §3.2 red-flag finding was present but not recorded, for example new or worsening weakness. If none was, the request should rely on another pathway, such as persistent radiculopathy after about 6 weeks of conservative therapy, rather than on a red flag."
+     }
+    }
+   ],
+   "counts": {
+    "supported": 0,
+    "partial": 0,
+    "missing": 0,
+    "contradicted": 1,
+    "total": 1
+   },
+   "supportable": false
+  }
+ ],
+ "recommendation": {
+  "type": "obtain_documentation",
+  "basis_id": null,
+  "banner": "Evidence incomplete for §3.1(b): 4 of 6 weeks documented. No alternative basis is supported by this record. Obtain the missing documentation before appealing.",
+  "rationale": "Neither the stated basis nor any alternative basis in the policy is fully supported by the record.",
+  "human_actions": [
+   "Ask Stride Physical Therapy (Carlos Mendes, PT) whether any further supervised sessions or home-program check-ins after 09/29/2026 are documented. Ask Dr. Ashworth's office whether she supervised or monitored the home exercise program, and request any such records.",
+   "Do not submit an appeal until the gap is documented."
+  ]
+ },
+ "draft": {
+  "basis_id": null,
+  "status": "blocked_on_gaps",
+  "blocks": [
+   {
+    "type": "claim",
+    "text": "The record documents that symptoms have been present for about 8 weeks, with onset on 08/10/2026.",
+    "citations": [
+     "R1-E1"
+    ]
+   },
+   {
+    "type": "claim",
+    "text": "The record documents that he has taken naproxen 500 mg twice daily for six weeks with minimal relief.",
+    "citations": [
+     "R3-E1"
+    ]
+   },
+   {
+    "type": "claim",
+    "text": "The record documents that on re-evaluation after conservative therapy, right-sided low back and leg pain persists at 6 out of 10 with no meaningful improvement.",
+    "citations": [
+     "R4-E1"
+    ]
+   },
+   {
+    "type": "gap",
+    "citations": [
+     "R2-E1"
+    ],
+    "text": "§3.1(b): 4 of 6 weeks documented. This paragraph cannot be written until it is documented."
+   }
+  ]
+ }
+}

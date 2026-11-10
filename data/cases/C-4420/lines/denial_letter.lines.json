@@ -1,0 +1,306 @@
+{
+ "doc_id": "DL",
+ "file": "denial_letter.pdf",
+ "title": "Denial letter",
+ "page_size": [
+  612.0,
+  792.0
+ ],
+ "coord_origin": "top-left",
+ "units": "pt",
+ "pages": [
+  {
+   "page": 1,
+   "lines": [
+    {
+     "line_id": "DL-p1-L1",
+     "line": 1,
+     "text": "NOTICE OF ADVERSE BENEFIT DETERMINATION",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      87.2,
+      313.24,
+      99.0
+     ]
+    },
+    {
+     "line_id": "DL-p1-L2",
+     "line": 2,
+     "text": "Date of notice: October 9, 2026",
+     "style": "body",
+     "bbox": [
+      76.0,
+      103.8,
+      214.97,
+      115.6
+     ]
+    },
+    {
+     "line_id": "DL-p1-L3",
+     "line": 3,
+     "text": "Member: Victor H. Lindqvist | Date of birth: 11/19/1982",
+     "style": "body",
+     "bbox": [
+      76.0,
+      120.4,
+      317.04,
+      132.2
+     ]
+    },
+    {
+     "line_id": "DL-p1-L4",
+     "line": 4,
+     "text": "Requesting provider: Renee Ashworth, MD, Maple Ridge Primary Care",
+     "style": "body",
+     "bbox": [
+      76.0,
+      137.0,
+      389.43,
+      148.8
+     ]
+    },
+    {
+     "line_id": "DL-p1-L5",
+     "line": 5,
+     "text": "Reference number: C-4420",
+     "style": "body",
+     "bbox": [
+      76.0,
+      153.6,
+      197.16,
+      165.4
+     ]
+    },
+    {
+     "line_id": "DL-p1-L6",
+     "line": 6,
+     "text": "Service requested",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      182.68,
+      162.15,
+      194.48
+     ]
+    },
+    {
+     "line_id": "DL-p1-L7",
+     "line": 7,
+     "text": "MRI of the lumbar spine without contrast (CPT 72148). Request received 10/06/2026.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      199.28,
+      453.95,
+      211.08
+     ]
+    },
+    {
+     "line_id": "DL-p1-L8",
+     "line": 8,
+     "text": "Decision",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      228.36,
+      117.68,
+      240.16
+     ]
+    },
+    {
+     "line_id": "DL-p1-L9",
+     "line": 9,
+     "text": "This request is DENIED.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      244.96,
+      184.36,
+      256.76
+     ]
+    },
+    {
+     "line_id": "DL-p1-L10",
+     "line": 10,
+     "text": "Reason for denial",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      274.04,
+      159.91,
+      285.84
+     ]
+    },
+    {
+     "line_id": "DL-p1-L11",
+     "line": 11,
+     "text": "Conservative therapy requirement not met. The records do not document at least 6 weeks of physical",
+     "style": "body",
+     "bbox": [
+      76.0,
+      290.64,
+      523.42,
+      302.44
+     ]
+    },
+    {
+     "line_id": "DL-p1-L12",
+     "line": 12,
+     "text": "therapy or a supervised home exercise program.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      304.24,
+      291.08,
+      316.04
+     ]
+    },
+    {
+     "line_id": "DL-p1-L13",
+     "line": 13,
+     "text": "Policy applied",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      333.32,
+      143.25,
+      345.12
+     ]
+    },
+    {
+     "line_id": "DL-p1-L14",
+     "line": 14,
+     "text": "Alderpoint Medical Policy MP-RAD-022, MRI of the Lumbar Spine, Section 3.1(b). A copy of the policy is",
+     "style": "body",
+     "bbox": [
+      76.0,
+      349.92,
+      536.73,
+      361.72
+     ]
+    },
+    {
+     "line_id": "DL-p1-L15",
+     "line": 15,
+     "text": "enclosed.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      363.52,
+      118.8,
+      375.32
+     ]
+    },
+    {
+     "line_id": "DL-p1-L16",
+     "line": 16,
+     "text": "Information reviewed",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      392.6,
+      176.58,
+      404.4
+     ]
+    },
+    {
+     "line_id": "DL-p1-L17",
+     "line": 17,
+     "text": "Imaging request dated 10/06/2026 and the office note of the same date.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      409.2,
+      393.43,
+      421.0
+     ]
+    },
+    {
+     "line_id": "DL-p1-L18",
+     "line": 18,
+     "text": "Your appeal rights",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      438.28,
+      163.8,
+      450.08
+     ]
+    },
+    {
+     "line_id": "DL-p1-L19",
+     "line": 19,
+     "text": "You or your provider may ask for an internal appeal within 180 days of the date of this notice. Send the",
+     "style": "body",
+     "bbox": [
+      76.0,
+      454.88,
+      529.57,
+      466.68
+     ]
+    },
+    {
+     "line_id": "DL-p1-L20",
+     "line": 20,
+     "text": "appeal and supporting records to Alderpoint Appeals Department, PO Box 0000, Example City, ST 00000,",
+     "style": "body",
+     "bbox": [
+      76.0,
+      468.48,
+      545.12,
+      480.28
+     ]
+    },
+    {
+     "line_id": "DL-p1-L21",
+     "line": 21,
+     "text": "or fax 555-0142. An expedited appeal is available when a delay could seriously jeopardize the member's",
+     "style": "body",
+     "bbox": [
+      76.0,
+      482.08,
+      537.57,
+      493.88
+     ]
+    },
+    {
+     "line_id": "DL-p1-L22",
+     "line": 22,
+     "text": "health.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      495.68,
+      106.02,
+      507.48
+     ]
+    },
+    {
+     "line_id": "DL-p1-L23",
+     "line": 23,
+     "text": "If the denial is upheld, you may have the right to an independent external review.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      512.28,
+      432.86,
+      524.08
+     ]
+    },
+    {
+     "line_id": "DL-p1-L24",
+     "line": 24,
+     "text": "Reviewed by: Medical Director, Radiology Utilization Management",
+     "style": "body",
+     "bbox": [
+      76.0,
+      536.36,
+      368.31,
+      548.16
+     ]
+    }
+   ]
+  }
+ ]
+}

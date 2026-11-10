@@ -1,0 +1,101 @@
+=== CR | Clinical record | page 1 of 5 ===
+[CR-p1-L1] RIVERBEND FAMILY MEDICINE - OFFICE VISIT
+[CR-p1-L2] Date of service: 04/20/2026 | Provider: Samuel T. Okafor, MD
+[CR-p1-L3] Chief complaint
+[CR-p1-L4] Recurrent headaches.
+[CR-p1-L5] History of present illness
+[CR-p1-L6] 38-year-old woman with recurrent throbbing, usually left-sided headaches for about 2 years, more frequent
+[CR-p1-L7] over the past 6 months. Episodes last 6 to 24 hours and come with nausea and sensitivity to light. She
+[CR-p1-L8] misses 2 to 3 days of work each month. She takes ibuprofen and sumatriptan 50 mg as needed with
+[CR-p1-L9] partial relief.
+[CR-p1-L10] Past medical history
+[CR-p1-L11] Mild intermittent asthma. Seasonal allergic rhinitis. Insomnia (2023), resolved.
+[CR-p1-L12] Medication history
+[CR-p1-L13] Amitriptyline 10 mg nightly was prescribed in 2023 for insomnia; she took it for about 2 weeks and stopped
+[CR-p1-L14] because of morning grogginess.
+[CR-p1-L15] Current: sumatriptan 50 mg as needed, albuterol inhaler as needed, cetirizine 10 mg daily.
+[CR-p1-L16] Family and social history
+[CR-p1-L17] Mother has migraine. Works as a paralegal. No tobacco. Alcohol 1 to 2 drinks per week.
+[CR-p1-L18] Examination
+[CR-p1-L19] BP 118/72, HR 68, BMI 24. Alert, in no distress. Cranial nerves intact. Strength and sensation normal. Gait
+[CR-p1-L20] normal. Fundi normal.
+[CR-p1-L21] Assessment and plan
+[CR-p1-L22] Probable migraine without aura. Referral placed to neurology. Continue sumatriptan as needed, no more
+[CR-p1-L23] than 9 doses per month. Start a headache diary.
+[CR-p1-L24] Preventive options were discussed; she prefers to wait for the neurology visit before starting a daily
+[CR-p1-L25] preventive medication.
+[CR-p1-L26] Electronically signed: Samuel T. Okafor, MD, 04/20/2026 16:42
+
+=== CR | Clinical record | page 2 of 5 ===
+[CR-p2-L1] LINDEN CREEK NEUROLOGY ASSOCIATES - NEW PATIENT CONSULTATION
+[CR-p2-L2] Date of service: 06/08/2026 | Provider: Elena M. Castellanos, MD, Neurology | Referred by: S. Okafor, MD
+[CR-p2-L3] History
+[CR-p2-L4] Referred for frequent headaches. Attacks are unilateral and pulsating, moderate to severe, worse with
+[CR-p2-L5] activity, with nausea and photophobia. No aura. No focal weakness, vision loss, or speech change.
+[CR-p2-L6] Triggers: poor sleep, skipped meals.
+[CR-p2-L7] Headache diary reviewed for March through May 2026: 9 migraine days in March, 8 in April, and 10 in
+[CR-p2-L8] May. Sumatriptan used on 6 to 8 days per month.
+[CR-p2-L9] Examination
+[CR-p2-L10] Normal mental status, cranial nerves, motor, sensory, coordination, and gait. No papilledema.
+[CR-p2-L11] Assessment
+[CR-p2-L12] Episodic migraine without aura (ICD-10 G43.009). Frequency supports daily preventive treatment.
+[CR-p2-L13] Preventive treatment discussion
+[CR-p2-L14] Propranolol was considered but not started because of her history of asthma. Topiramate reviewed,
+[CR-p2-L15] including paresthesia, cognitive slowing, nausea, and the need for reliable contraception.
+[CR-p2-L16] Plan
+[CR-p2-L17] Start topiramate 25 mg nightly today, 06/08/2026, increasing by 25 mg each week to a target of 50 mg
+[CR-p2-L18] twice daily.
+[CR-p2-L19] Continue sumatriptan 50 mg as needed. Continue headache diary. Return in 4 weeks.
+[CR-p2-L20] Electronically signed: Elena M. Castellanos, MD, Neurology, 06/08/2026 11:05
+
+=== CR | Clinical record | page 3 of 5 ===
+[CR-p3-L1] LINDEN CREEK NEUROLOGY ASSOCIATES - FOLLOW-UP VISIT
+[CR-p3-L2] Date of service: 07/06/2026 | Provider: Elena M. Castellanos, MD, Neurology
+[CR-p3-L3] Interval history
+[CR-p3-L4] Four weeks on topiramate. She reached 50 mg twice daily on 06/29/2026. She reports nausea most
+[CR-p3-L5] mornings and intermittent dizziness since the dose reached 75 mg per day. No paresthesia. No
+[CR-p3-L6] word-finding difficulty. Diary shows 7 migraine days in June.
+[CR-p3-L7] Assessment and plan
+[CR-p3-L8] Migraine frequency not yet improved; adverse effects present. Dose adjusted to 25 mg in the morning and
+[CR-p3-L9] 50 mg at night, taken with food. Plan to continue so that she completes an adequate trial. Return in 4
+[CR-p3-L10] weeks.
+[CR-p3-L11] Electronically signed: Elena M. Castellanos, MD, Neurology, 07/06/2026 09:48
+[CR-p3-L12] LINDEN CREEK NEUROLOGY ASSOCIATES - TELEPHONE ENCOUNTER
+[CR-p3-L13] Date: 07/20/2026 | Taken by: Nina Park, RN
+[CR-p3-L14] Patient called. Nausea continues on the adjusted dose and she feels dizzy when standing up quickly. No
+[CR-p3-L15] falls. Advised to keep taking the adjusted dose with food, drink fluids, and keep the 08/03/2026 visit.
+[CR-p3-L16] Message routed to Dr. Castellanos.
+
+=== CR | Clinical record | page 4 of 5 ===
+[CR-p4-L1] LINDEN CREEK NEUROLOGY ASSOCIATES - FOLLOW-UP VISIT
+[CR-p4-L2] Date of service: 08/03/2026 | Provider: Elena M. Castellanos, MD, Neurology
+[CR-p4-L3] Interval history
+[CR-p4-L4] Patient completed an eight-week trial of topiramate, 06/08/2026 to 08/03/2026. Treatment was
+[CR-p4-L5] discontinued today due to significant nausea and dizziness, which were not tolerable despite dose
+[CR-p4-L6] adjustment. Migraine frequency was unchanged, with 8 migraine days in July.
+[CR-p4-L7] Examination
+[CR-p4-L8] BP 112/70, HR 72. Neurologic examination unchanged and nonfocal.
+[CR-p4-L9] Assessment and plan
+[CR-p4-L10] Episodic migraine without aura, inadequately controlled. Topiramate stopped because of intolerance. A
+[CR-p4-L11] beta blocker is avoided because of asthma. Recommend a CGRP monoclonal antibody. Will request prior
+[CR-p4-L12] authorization for erenumab-aooe 70 mg once monthly. Continue sumatriptan as needed. Return in 6
+[CR-p4-L13] weeks.
+[CR-p4-L14] Electronically signed: Elena M. Castellanos, MD, Neurology, 08/03/2026 10:21
+
+=== CR | Clinical record | page 5 of 5 ===
+[CR-p5-L1] LINDEN CREEK NEUROLOGY ASSOCIATES - FOLLOW-UP VISIT
+[CR-p5-L2] Date of service: 09/14/2026 | Provider: Elena M. Castellanos, MD, Neurology
+[CR-p5-L3] Interval history
+[CR-p5-L4] Nausea and dizziness resolved within one week of stopping topiramate. Headache diary for June through
+[CR-p5-L5] August 2026: 7 migraine days in June, 8 in July, and 9 in August. She missed 3 days of work in August.
+[CR-p5-L6] Plan
+[CR-p5-L7] Prior authorization request for erenumab-aooe to be submitted 09/15/2026. Injection teaching completed
+[CR-p5-L8] today.
+[CR-p5-L9] Medication list as of 09/14/2026
+[CR-p5-L10] - Erenumab-aooe 70 mg subcutaneously once monthly - ordered by Elena M. Castellanos, MD
+[CR-p5-L11] (Neurology); pending prior authorization.
+[CR-p5-L12] - Sumatriptan 50 mg by mouth as needed for migraine, maximum 9 doses per month.
+[CR-p5-L13] - Albuterol inhaler, 2 puffs as needed.
+[CR-p5-L14] - Cetirizine 10 mg daily.
+[CR-p5-L15] - Topiramate - discontinued 08/03/2026 (nausea, dizziness).
+[CR-p5-L16] Electronically signed: Elena M. Castellanos, MD, Neurology, 09/14/2026 14:30

@@ -1,0 +1,47 @@
+{
+ "case_id": "A-2048",
+ "title": "Medical necessity appeal: CGRP antagonist for migraine prevention",
+ "scenario": "all_supported",
+ "demo_role": "supporting",
+ "one_line": "Denied for missing proof of prior treatment failure; the record contains all of it.",
+ "patient": {
+  "name": "Dana R. Whitfield",
+  "dob": "1988-03-14",
+  "member_id": "ALD-448-203-771"
+ },
+ "payer": "Alderpoint Health Plan",
+ "provider": "Linden Creek Neurology Associates",
+ "service_requested": "Erenumab-aooe 70 mg subcutaneous injection, once monthly, 12 months",
+ "key_dates": {
+  "request": "2026-09-15",
+  "denial": "2026-09-22",
+  "appeal_deadline": "2027-03-21"
+ },
+ "documents": [
+  {
+   "doc_id": "DL",
+   "file": "denial_letter.pdf",
+   "title": "Denial letter",
+   "pages": 1,
+   "lines_file": "lines/denial_letter.lines.json",
+   "text_file": "text/denial_letter.lined.txt"
+  },
+  {
+   "doc_id": "POL",
+   "file": "policy.pdf",
+   "title": "Payer policy MP-RX-014",
+   "pages": 1,
+   "lines_file": "lines/policy.lines.json",
+   "text_file": "text/policy.lined.txt"
+  },
+  {
+   "doc_id": "CR",
+   "file": "clinical_record.pdf",
+   "title": "Clinical record",
+   "pages": 5,
+   "lines_file": "lines/clinical_record.lines.json",
+   "text_file": "text/clinical_record.lined.txt"
+  }
+ ],
+ "synthetic": true
+}

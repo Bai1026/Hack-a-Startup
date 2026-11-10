@@ -1,0 +1,28 @@
+=== DL | Denial letter | page 1 of 1 ===
+[DL-p1-L1] NOTICE OF ADVERSE BENEFIT DETERMINATION
+[DL-p1-L2] Date of notice: September 22, 2026
+[DL-p1-L3] Member: Dana R. Whitfield | Date of birth: 03/14/1988
+[DL-p1-L4] Requesting provider: Elena M. Castellanos, MD, Linden Creek Neurology Associates
+[DL-p1-L5] Reference number: A-2048
+[DL-p1-L6] Service requested
+[DL-p1-L7] Erenumab-aooe 70 mg subcutaneous injection, once monthly, for 12 months. Request received
+[DL-p1-L8] 09/15/2026.
+[DL-p1-L9] Decision
+[DL-p1-L10] This request is DENIED.
+[DL-p1-L11] Reason for denial
+[DL-p1-L12] Insufficient documentation of prior treatment failure. The information we received does not show that the
+[DL-p1-L13] member completed a trial of a preferred oral preventive medication, or that the trial was ineffective or not
+[DL-p1-L14] tolerated.
+[DL-p1-L15] Policy applied
+[DL-p1-L16] Alderpoint Medical Policy MP-RX-014, CGRP Antagonists for Migraine Prevention, Section 3.1. A copy of
+[DL-p1-L17] the policy is enclosed.
+[DL-p1-L18] Information reviewed
+[DL-p1-L19] Prior authorization request form dated 09/15/2026 and the pharmacy claims history. No chart notes were
+[DL-p1-L20] received with the request.
+[DL-p1-L21] Your appeal rights
+[DL-p1-L22] You or your provider may ask for an internal appeal within 180 days of the date of this notice. Send the
+[DL-p1-L23] appeal and supporting records to Alderpoint Appeals Department, PO Box 0000, Example City, ST 00000,
+[DL-p1-L24] or fax 555-0142. An expedited appeal is available when a delay could seriously jeopardize the member's
+[DL-p1-L25] health.
+[DL-p1-L26] If the denial is upheld, you may have the right to an independent external review.
+[DL-p1-L27] Reviewed by: Medical Director, Pharmacy Utilization Management

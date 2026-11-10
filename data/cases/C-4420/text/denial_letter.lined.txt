@@ -1,0 +1,25 @@
+=== DL | Denial letter | page 1 of 1 ===
+[DL-p1-L1] NOTICE OF ADVERSE BENEFIT DETERMINATION
+[DL-p1-L2] Date of notice: October 9, 2026
+[DL-p1-L3] Member: Victor H. Lindqvist | Date of birth: 11/19/1982
+[DL-p1-L4] Requesting provider: Renee Ashworth, MD, Maple Ridge Primary Care
+[DL-p1-L5] Reference number: C-4420
+[DL-p1-L6] Service requested
+[DL-p1-L7] MRI of the lumbar spine without contrast (CPT 72148). Request received 10/06/2026.
+[DL-p1-L8] Decision
+[DL-p1-L9] This request is DENIED.
+[DL-p1-L10] Reason for denial
+[DL-p1-L11] Conservative therapy requirement not met. The records do not document at least 6 weeks of physical
+[DL-p1-L12] therapy or a supervised home exercise program.
+[DL-p1-L13] Policy applied
+[DL-p1-L14] Alderpoint Medical Policy MP-RAD-022, MRI of the Lumbar Spine, Section 3.1(b). A copy of the policy is
+[DL-p1-L15] enclosed.
+[DL-p1-L16] Information reviewed
+[DL-p1-L17] Imaging request dated 10/06/2026 and the office note of the same date.
+[DL-p1-L18] Your appeal rights
+[DL-p1-L19] You or your provider may ask for an internal appeal within 180 days of the date of this notice. Send the
+[DL-p1-L20] appeal and supporting records to Alderpoint Appeals Department, PO Box 0000, Example City, ST 00000,
+[DL-p1-L21] or fax 555-0142. An expedited appeal is available when a delay could seriously jeopardize the member's
+[DL-p1-L22] health.
+[DL-p1-L23] If the denial is upheld, you may have the right to an independent external review.
+[DL-p1-L24] Reviewed by: Medical Director, Radiology Utilization Management

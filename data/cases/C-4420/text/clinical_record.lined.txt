@@ -1,0 +1,90 @@
+=== CR | Clinical record | page 1 of 5 ===
+[CR-p1-L1] MAPLE RIDGE PRIMARY CARE - OFFICE VISIT
+[CR-p1-L2] Date of service: 08/24/2026 | Provider: Renee Ashworth, MD
+[CR-p1-L3] Chief complaint
+[CR-p1-L4] Low back pain going down the right leg.
+[CR-p1-L5] History of present illness
+[CR-p1-L6] 43-year-old warehouse supervisor. Low back pain began about 08/10/2026 after he lifted a pallet at work.
+[CR-p1-L7] The pain travels down the back of the right thigh to the calf. It is 7 out of 10, worse with sitting and
+[CR-p1-L8] bending. He took a few doses of over-the-counter ibuprofen with little effect. He denies bowel or bladder
+[CR-p1-L9] changes, saddle numbness, fever, and weight loss.
+[CR-p1-L10] Past medical history
+[CR-p1-L11] None significant. No prior back surgery. No history of cancer. No known drug allergies.
+[CR-p1-L12] Examination
+[CR-p1-L13] BP 126/80, HR 74, BMI 28. Tender over the right lower lumbar paraspinal muscles. Straight leg raise
+[CR-p1-L14] positive on the right at 40 degrees. Strength 5/5 in both legs. Reflexes symmetric. Sensation intact.
+[CR-p1-L15] Assessment
+[CR-p1-L16] Acute lumbar radiculopathy, right (ICD-10 M54.16).
+[CR-p1-L17] Plan
+[CR-p1-L18] - Start naproxen 500 mg twice daily with food.
+[CR-p1-L19] - Referral to physical therapy.
+[CR-p1-L20] - Work restriction: no lifting over 20 pounds.
+[CR-p1-L21] - Return in 6 weeks, sooner for leg weakness or bladder symptoms.
+[CR-p1-L22] Electronically signed: Renee Ashworth, MD, 08/24/2026 09:15
+
+=== CR | Clinical record | page 2 of 5 ===
+[CR-p2-L1] MAPLE RIDGE IMAGING - RADIOLOGY REPORT
+[CR-p2-L2] Examination: lumbar spine X-ray, 2 views | Date: 08/24/2026 | Ordered by: Renee Ashworth, MD
+[CR-p2-L3] Indication
+[CR-p2-L4] Low back pain with right leg symptoms after lifting.
+[CR-p2-L5] Findings
+[CR-p2-L6] Five lumbar-type vertebrae with normal alignment. Vertebral body heights are preserved. Mild disc space
+[CR-p2-L7] narrowing at L5-S1. No fracture or destructive bone lesion. Sacroiliac joints are unremarkable.
+[CR-p2-L8] Impression
+[CR-p2-L9] Mild degenerative change at L5-S1. No acute abnormality.
+[CR-p2-L10] Electronically signed: Hannah Voss, MD, Radiology, 08/24/2026 15:31
+
+=== CR | Clinical record | page 3 of 5 ===
+[CR-p3-L1] STRIDE PHYSICAL THERAPY - INITIAL EVALUATION
+[CR-p3-L2] Date: 09/01/2026 | Therapist: Carlos Mendes, PT | Referred by: R. Ashworth, MD
+[CR-p3-L3] Subjective
+[CR-p3-L4] Right-sided low back pain with leg symptoms for 3 weeks. Pain 6 to 7 out of 10. Sitting tolerance 20
+[CR-p3-L5] minutes. Works on modified duty.
+[CR-p3-L6] Objective
+[CR-p3-L7] Lumbar flexion limited to 50 percent with leg pain. Extension reduces leg symptoms. Straight leg raise
+[CR-p3-L8] positive on the right. Oswestry Disability Index 44 percent.
+[CR-p3-L9] Assessment
+[CR-p3-L10] Findings consistent with a right lumbar radiculopathy that responds to extension. Good candidate for
+[CR-p3-L11] therapy.
+[CR-p3-L12] Plan of care
+[CR-p3-L13] Physical therapy 2 visits per week for 6 weeks (12 visits). Directional preference exercises, nerve mobility
+[CR-p3-L14] work, core stabilization, and body mechanics training.
+[CR-p3-L15] Home exercise program handout issued (prone press-ups and nerve glides), to be done daily.
+[CR-p3-L16] Electronically signed: Carlos Mendes, PT, 09/01/2026 17:02
+
+=== CR | Clinical record | page 4 of 5 ===
+[CR-p4-L1] STRIDE PHYSICAL THERAPY - DISCHARGE NOTE
+[CR-p4-L2] Date: 09/29/2026 | Therapist: Carlos Mendes, PT
+[CR-p4-L3] Attendance
+[CR-p4-L4] The patient attended 8 of 12 planned visits between 09/01/2026 and 09/29/2026, a period of 4 weeks. He
+[CR-p4-L5] cancelled the remaining visits because of a change in his work schedule and was discharged from
+[CR-p4-L6] physical therapy on 09/29/2026.
+[CR-p4-L7] Attendance log
+[CR-p4-L8] - Attended: 09/01, 09/03, 09/08, 09/10, 09/15, 09/17, 09/22, 09/29.
+[CR-p4-L9] - Cancelled by patient: 09/24, 10/01, 10/06, 10/08.
+[CR-p4-L10] Status at discharge
+[CR-p4-L11] Pain 6 out of 10. Oswestry Disability Index 40 percent. Sitting tolerance 30 minutes. Leg symptoms
+[CR-p4-L12] unchanged. Minimal overall change.
+[CR-p4-L13] Recommendation
+[CR-p4-L14] Continue the home exercises independently. Return to the referring physician.
+[CR-p4-L15] Electronically signed: Carlos Mendes, PT, 09/29/2026 16:44
+
+=== CR | Clinical record | page 5 of 5 ===
+[CR-p5-L1] MAPLE RIDGE PRIMARY CARE - OFFICE VISIT
+[CR-p5-L2] Date of service: 10/06/2026 | Provider: Renee Ashworth, MD
+[CR-p5-L3] Interval history
+[CR-p5-L4] Re-evaluation after conservative therapy: right-sided low back and leg pain persists at 6 out of 10 with no
+[CR-p5-L5] meaningful improvement. Symptoms have now been present for about 8 weeks, with onset on 08/10/2026.
+[CR-p5-L6] He has taken naproxen 500 mg twice daily for six weeks with minimal relief. He says he has done his
+[CR-p5-L7] home exercises most days since leaving physical therapy.
+[CR-p5-L8] Examination
+[CR-p5-L9] Straight leg raise positive on the right at 35 degrees. Strength is 5/5 in both legs. No saddle anesthesia.
+[CR-p5-L10] He denies bowel or bladder dysfunction, fever, and unexplained weight loss, and has no history of cancer.
+[CR-p5-L11] Sensation is mildly reduced over the outer right foot. Ankle reflex slightly reduced on the right.
+[CR-p5-L12] Assessment
+[CR-p5-L13] Right lumbar radiculopathy, persistent after medication and physical therapy.
+[CR-p5-L14] Plan
+[CR-p5-L15] Order MRI of the lumbar spine without contrast to look for a disc herniation with nerve root compression.
+[CR-p5-L16] Consider referral for an epidural steroid injection depending on the result. Continue naproxen and work
+[CR-p5-L17] restrictions.
+[CR-p5-L18] Electronically signed: Renee Ashworth, MD, 10/06/2026 10:52

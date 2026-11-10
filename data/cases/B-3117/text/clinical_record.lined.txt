@@ -1,0 +1,153 @@
+=== CR | Clinical record | page 1 of 8 ===
+[CR-p1-L1] DISCHARGE SUMMARY
+[CR-p1-L2] Admitted: 09/27/2026 | Discharged: 10/02/2026 | Attending: Daniel K. Abernathy, MD, Orthopedic Surgery
+[CR-p1-L3] Principal diagnosis
+[CR-p1-L4] Displaced fracture of the right femoral neck (ICD-10 S72.001A).
+[CR-p1-L5] Procedure
+[CR-p1-L6] Right hip hemiarthroplasty, 09/28/2026.
+[CR-p1-L7] Other diagnoses
+[CR-p1-L8] Hypertension. Type 2 diabetes mellitus, hemoglobin A1c 7.1%. Osteoporosis.
+[CR-p1-L9] Hospital course
+[CR-p1-L10] 71-year-old woman who fell in her kitchen on 09/27/2026 and could not bear weight. Imaging showed a
+[CR-p1-L11] displaced right femoral neck fracture. She had an uncomplicated right hip hemiarthroplasty on 09/28/2026.
+[CR-p1-L12] She was out of bed with physical therapy on the first day after surgery. Pain was controlled with scheduled
+[CR-p1-L13] acetaminophen and occasional oxycodone. Hemoglobin was stable at 10.4 g/dL. No delirium. The incision
+[CR-p1-L14] was clean and dry at discharge.
+[CR-p1-L15] Discharge medications
+[CR-p1-L16] - Enoxaparin 40 mg subcutaneously once daily for 28 days.
+[CR-p1-L17] - Acetaminophen 1,000 mg three times daily.
+[CR-p1-L18] - Oxycodone 5 mg every 6 hours as needed for severe pain, 5 days.
+[CR-p1-L19] - Lisinopril 10 mg daily. Metformin 500 mg twice daily. Calcium with vitamin D daily.
+[CR-p1-L20] Activity
+[CR-p1-L21] Weight bearing as tolerated with a front-wheeled walker. Posterior hip precautions for 6 weeks.
+[CR-p1-L22] Disposition and follow-up
+[CR-p1-L23] Home with home health services (skilled nursing and physical therapy). Orthopedic clinic visit on
+[CR-p1-L24] 10/16/2026.
+[CR-p1-L25] Electronically signed: Daniel K. Abernathy, MD, 10/02/2026 10:37
+
+=== CR | Clinical record | page 2 of 8 ===
+[CR-p2-L1] OPERATIVE REPORT
+[CR-p2-L2] Date of surgery: 09/28/2026 | Surgeon: Daniel K. Abernathy, MD | Anesthesia: spinal
+[CR-p2-L3] Preoperative and postoperative diagnosis
+[CR-p2-L4] Displaced fracture of the right femoral neck.
+[CR-p2-L5] Procedure
+[CR-p2-L6] Right hip hemiarthroplasty with a cemented femoral stem and bipolar head.
+[CR-p2-L7] Description
+[CR-p2-L8] Posterior approach. The femoral head was removed and measured. The femoral canal was prepared and
+[CR-p2-L9] a cemented stem was placed. Trial reduction showed a stable hip with equal leg lengths. Final
+[CR-p2-L10] components were placed. The capsule and short external rotators were repaired and the wound was
+[CR-p2-L11] closed in layers.
+[CR-p2-L12] Estimated blood loss and complications
+[CR-p2-L13] 250 mL. No complications. The patient went to recovery in stable condition.
+[CR-p2-L14] Postoperative plan
+[CR-p2-L15] Weight bearing as tolerated. Posterior hip precautions. Enoxaparin from the morning after surgery.
+[CR-p2-L16] Physical therapy from the first day after surgery.
+[CR-p2-L17] Electronically signed: Daniel K. Abernathy, MD, 09/28/2026 13:55
+
+=== CR | Clinical record | page 3 of 8 ===
+[CR-p3-L1] LABORATORY RESULTS AND VITAL SIGNS
+[CR-p3-L2] Reporting period: 09/27/2026 to 10/02/2026
+[CR-p3-L3] 09/27/2026, on admission
+[CR-p3-L4] - Hemoglobin 12.8 g/dL. White cell count 9.6. Platelets 232.
+[CR-p3-L5] - Sodium 138. Potassium 4.1. Creatinine 0.8 mg/dL. Glucose 164 mg/dL.
+[CR-p3-L6] - INR 1.0. Hemoglobin A1c 7.1%.
+[CR-p3-L7] 09/29/2026, first day after surgery
+[CR-p3-L8] - Hemoglobin 10.6 g/dL. Potassium 3.9. Creatinine 0.8 mg/dL.
+[CR-p3-L9] 10/01/2026
+[CR-p3-L10] - Hemoglobin 10.4 g/dL. Potassium 4.0. Creatinine 0.8 mg/dL. Glucose 138 mg/dL.
+[CR-p3-L11] Vital signs at discharge, 10/02/2026
+[CR-p3-L12] BP 132/76, HR 78, temperature 36.8 C, oxygen saturation 97 percent on room air.
+
+=== CR | Clinical record | page 4 of 8 ===
+[CR-p4-L1] INPATIENT PHYSICAL THERAPY EVALUATION
+[CR-p4-L2] Date: 09/30/2026 | Therapist: Jordan Feld, PT, DPT | Second day after surgery
+[CR-p4-L3] Prior level of function
+[CR-p4-L4] Walked in the community without a device. Lives with her daughter in a single-story house. Before this
+[CR-p4-L5] admission the patient was not homebound; she drove and shopped independently.
+[CR-p4-L6] Current function
+[CR-p4-L7] - Bed mobility: minimal assistance.
+[CR-p4-L8] - Sit to stand: moderate assistance of one person.
+[CR-p4-L9] - Walking: 40 feet with a front-wheeled walker and minimal assistance.
+[CR-p4-L10] - Stairs: not attempted.
+[CR-p4-L11] - Timed Up and Go: 38 seconds. Pain with activity: 5 out of 10.
+[CR-p4-L12] Assessment
+[CR-p4-L13] She requires skilled physical therapy for gait training, transfer training, hip precaution teaching, and
+[CR-p4-L14] progressive strengthening. Rehabilitation potential is good.
+[CR-p4-L15] Recommendation
+[CR-p4-L16] Physical therapy 5 times per week in a facility, or 3 times per week at home if a trained caregiver is
+[CR-p4-L17] present. Equipment: front-wheeled walker, raised toilet seat, shower chair.
+[CR-p4-L18] Electronically signed: Jordan Feld, PT, DPT, 09/30/2026 15:20
+
+=== CR | Clinical record | page 5 of 8 ===
+[CR-p5-L1] FACE-TO-FACE ENCOUNTER AND HOME HEALTH ORDER
+[CR-p5-L2] Physician: Daniel K. Abernathy, MD | Form completed: 10/01/2026
+[CR-p5-L3] Face-to-face encounter
+[CR-p5-L4] Encounter date: 10/01/2026. The encounter was related to the primary reason for home health: care after
+[CR-p5-L5] right hip hemiarthroplasty.
+[CR-p5-L6] Orders and plan of care
+[CR-p5-L7] I order home health services under this plan of care: skilled nursing 2 visits per week for 6 weeks (12
+[CR-p5-L8] visits) and physical therapy 3 visits per week for 6 weeks (18 visits).
+[CR-p5-L9] Skilled nursing need
+[CR-p5-L10] Skilled nursing is needed for surgical incision assessment, enoxaparin injection teaching and monitoring,
+[CR-p5-L11] and pain medication management.
+[CR-p5-L12] Skilled therapy need
+[CR-p5-L13] Gait and transfer training, hip precautions, strengthening, and fall prevention, per the physical therapy
+[CR-p5-L14] evaluation of 09/30/2026.
+[CR-p5-L15] Homebound status
+[CR-p5-L16] Member is homebound: [ ] Yes [ ] No. Clinical findings supporting homebound status: (left blank).
+[CR-p5-L17] Goals
+[CR-p5-L18] Independent walking with a walker for 150 feet, independent transfers, a healed incision, and safe
+[CR-p5-L19] completion of enoxaparin by day 28.
+[CR-p5-L20] Electronically signed: Daniel K. Abernathy, MD, 10/01/2026 14:12
+
+=== CR | Clinical record | page 6 of 8 ===
+[CR-p6-L1] CASE MANAGEMENT - DISCHARGE PLANNING NOTE
+[CR-p6-L2] Date: 10/01/2026 | Case manager: Tamika Brooks, RN, CCM
+[CR-p6-L3] Level of care
+[CR-p6-L4] Patient meets Alderpoint criteria for skilled nursing facility admission: she requires daily skilled nursing and
+[CR-p6-L5] skilled physical therapy 5 times per week after hip hemiarthroplasty. Referral sent 09/30/2026. Bed offered
+[CR-p6-L6] at Cedar Hollow Rehabilitation and Nursing for 10/02/2026.
+[CR-p6-L7] Patient and family preference
+[CR-p6-L8] The patient and her daughter decline skilled nursing facility placement and ask for discharge home with
+[CR-p6-L9] home health services.
+[CR-p6-L10] Caregiver
+[CR-p6-L11] Her daughter, Anna Kowalczyk, lives with the patient, is available 24 hours a day for the first 6 weeks, and
+[CR-p6-L12] completed transfer and injection training on 10/01/2026.
+[CR-p6-L13] Cost comparison
+[CR-p6-L14] Expected cost at Plan contracted rates: skilled nursing facility, 20 days at $520 per day = $10,400; home
+[CR-p6-L15] health, 30 visits at $145 per visit = $4,350. Home health is the lower-cost option.
+[CR-p6-L16] Equipment
+[CR-p6-L17] Front-wheeled walker, raised toilet seat, and shower chair delivered to the home on 10/01/2026.
+[CR-p6-L18] Plan
+[CR-p6-L19] Discharge home on 10/02/2026 with home health. Prior authorization request sent to Alderpoint Health
+[CR-p6-L20] Plan on 10/01/2026.
+[CR-p6-L21] Electronically signed: Tamika Brooks, RN, CCM, 10/01/2026 16:05
+
+=== CR | Clinical record | page 7 of 8 ===
+[CR-p7-L1] OCCUPATIONAL THERAPY - HOME SAFETY EVALUATION
+[CR-p7-L2] Date: 10/01/2026 | Therapist: Wei Lin, OTR/L | Home visit before discharge, daughter present
+[CR-p7-L3] Findings
+[CR-p7-L4] - Single-story house. One step at the front entry with a handrail.
+[CR-p7-L5] - Bedroom and bathroom on the main level. Doorways are wide enough for a walker.
+[CR-p7-L6] - Grab bars installed in the shower on 09/30/2026. Night lighting in the hallway and bathroom.
+[CR-p7-L7] - Throw rugs removed from the kitchen and bedroom. One rug remains in the hallway.
+[CR-p7-L8] Conclusion
+[CR-p7-L9] The home setting is clinically appropriate and safe for discharge with home health nursing and physical
+[CR-p7-L10] therapy.
+[CR-p7-L11] Recommendations
+[CR-p7-L12] Remove the remaining hallway rug. Use the shower chair and raised toilet seat. Keep the walker within
+[CR-p7-L13] reach at night.
+[CR-p7-L14] Electronically signed: Wei Lin, OTR/L, 10/01/2026 13:40
+
+=== CR | Clinical record | page 8 of 8 ===
+[CR-p8-L1] ORTHOPEDIC CLINIC - TELEPHONE FOLLOW-UP AFTER DISCHARGE
+[CR-p8-L2] Date: 10/06/2026 | Taken by: Carmen Delgado, RN
+[CR-p8-L3] Spoke with the patient and her daughter. Pain is 4 out of 10 and controlled with acetaminophen. The
+[CR-p8-L4] daughter reports the incision is dry with no redness. Enoxaparin is given each morning by the daughter.
+[CR-p8-L5] The patient says she has mostly been staying in since coming home. Her daughter drove her to the
+[CR-p8-L6] pharmacy on 10/05/2026; the patient waited in the car.
+[CR-p8-L7] She walks to the bathroom and kitchen with the walker while her daughter stands by. No falls. Blood
+[CR-p8-L8] glucose readings 110 to 150 mg/dL.
+[CR-p8-L9] Home health start of care is on hold pending insurance authorization. Reminded of the orthopedic clinic
+[CR-p8-L10] visit on 10/16/2026. Advised to call for fever, wound drainage, calf pain, or shortness of breath.
+[CR-p8-L11] Electronically signed: Carmen Delgado, RN, 10/06/2026 11:18

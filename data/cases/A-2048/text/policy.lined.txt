@@ -1,0 +1,30 @@
+=== POL | Payer policy MP-RX-014 | page 1 of 1 ===
+[POL-p1-L1] 1. Purpose
+[POL-p1-L2] This policy describes when Alderpoint Health Plan covers calcitonin gene-related peptide (CGRP)
+[POL-p1-L3] antagonists for the prevention of migraine.
+[POL-p1-L4] 2. Definitions
+[POL-p1-L5] Migraine day: a calendar day with a headache that meets criteria for migraine or is treated with a
+[POL-p1-L6] migraine-specific acute medication.
+[POL-p1-L7] Preferred oral preventive medication: topiramate, propranolol, metoprolol, amitriptyline, or divalproex
+[POL-p1-L8] sodium.
+[POL-p1-L9] 3. Coverage criteria
+[POL-p1-L10] 3.1 Initial authorization. A CGRP antagonist is medically necessary when all of the following are
+[POL-p1-L11] documented:
+[POL-p1-L12] (a) The member has a diagnosis of migraine with at least 4 migraine days per month in each of the 3
+[POL-p1-L13] months before the request.
+[POL-p1-L14] (b) The member completed a trial of at least 8 weeks of at least one preferred oral preventive
+[POL-p1-L15] medication.
+[POL-p1-L16] (c) The trial in (b) was ineffective or was discontinued because of intolerable adverse effects.
+[POL-p1-L17] (d) The medication is prescribed by, or in consultation with, a neurologist or headache specialist.
+[POL-p1-L18] 3.2 Exception. A trial under 3.1(b) is not required when every preferred oral preventive medication is
+[POL-p1-L19] contraindicated for the member and each contraindication is documented.
+[POL-p1-L20] 3.3 Renewal. Continued coverage requires documentation of a reduction in monthly migraine days
+[POL-p1-L21] compared with baseline.
+[POL-p1-L22] 4. Documentation
+[POL-p1-L23] Acceptable documentation includes chart notes, a medication history with start and stop dates, and a
+[POL-p1-L24] headache diary or its summary in a chart note.
+[POL-p1-L25] 5. Authorization period
+[POL-p1-L26] Initial authorization is for 12 months.
+[POL-p1-L27] 6. Not covered
+[POL-p1-L28] Use together with another CGRP antagonist for prevention. Use for acute treatment is addressed in a
+[POL-p1-L29] separate policy.

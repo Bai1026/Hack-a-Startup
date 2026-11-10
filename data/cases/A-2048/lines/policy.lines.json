@@ -1,0 +1,366 @@
+{
+ "doc_id": "POL",
+ "file": "policy.pdf",
+ "title": "Payer policy MP-RX-014",
+ "page_size": [
+  612.0,
+  792.0
+ ],
+ "coord_origin": "top-left",
+ "units": "pt",
+ "pages": [
+  {
+   "page": 1,
+   "lines": [
+    {
+     "line_id": "POL-p1-L1",
+     "line": 1,
+     "text": "1. Purpose",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      87.2,
+      127.13,
+      99.0
+     ]
+    },
+    {
+     "line_id": "POL-p1-L2",
+     "line": 2,
+     "text": "This policy describes when Alderpoint Health Plan covers calcitonin gene-related peptide (CGRP)",
+     "style": "body",
+     "bbox": [
+      76.0,
+      103.8,
+      507.27,
+      115.6
+     ]
+    },
+    {
+     "line_id": "POL-p1-L3",
+     "line": 3,
+     "text": "antagonists for the prevention of migraine.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      117.4,
+      262.76,
+      129.2
+     ]
+    },
+    {
+     "line_id": "POL-p1-L4",
+     "line": 4,
+     "text": "2. Definitions",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      146.48,
+      138.79,
+      158.28
+     ]
+    },
+    {
+     "line_id": "POL-p1-L5",
+     "line": 5,
+     "text": "Migraine day: a calendar day with a headache that meets criteria for migraine or is treated with a",
+     "style": "body",
+     "bbox": [
+      76.0,
+      163.08,
+      502.29,
+      174.88
+     ]
+    },
+    {
+     "line_id": "POL-p1-L6",
+     "line": 6,
+     "text": "migraine-specific acute medication.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      176.68,
+      232.16,
+      188.48
+     ]
+    },
+    {
+     "line_id": "POL-p1-L7",
+     "line": 7,
+     "text": "Preferred oral preventive medication: topiramate, propranolol, metoprolol, amitriptyline, or divalproex",
+     "style": "body",
+     "bbox": [
+      76.0,
+      193.28,
+      519.49,
+      205.08
+     ]
+    },
+    {
+     "line_id": "POL-p1-L8",
+     "line": 8,
+     "text": "sodium.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      206.88,
+      111.01,
+      218.68
+     ]
+    },
+    {
+     "line_id": "POL-p1-L9",
+     "line": 9,
+     "text": "3. Coverage criteria",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      235.96,
+      168.82,
+      247.76
+     ]
+    },
+    {
+     "line_id": "POL-p1-L10",
+     "line": 10,
+     "text": "3.1 Initial authorization. A CGRP antagonist is medically necessary when all of the following are",
+     "style": "body",
+     "bbox": [
+      76.0,
+      252.56,
+      497.84,
+      264.36
+     ]
+    },
+    {
+     "line_id": "POL-p1-L11",
+     "line": 11,
+     "text": "documented:",
+     "style": "body",
+     "bbox": [
+      76.0,
+      266.16,
+      133.81,
+      277.96
+     ]
+    },
+    {
+     "line_id": "POL-p1-L12",
+     "line": 12,
+     "text": "(a) The member has a diagnosis of migraine with at least 4 migraine days per month in each of the 3",
+     "style": "body",
+     "bbox": [
+      92.0,
+      282.76,
+      536.08,
+      294.56
+     ]
+    },
+    {
+     "line_id": "POL-p1-L13",
+     "line": 13,
+     "text": "months before the request.",
+     "style": "body",
+     "bbox": [
+      92.0,
+      296.36,
+      211.51,
+      308.16
+     ]
+    },
+    {
+     "line_id": "POL-p1-L14",
+     "line": 14,
+     "text": "(b) The member completed a trial of at least 8 weeks of at least one preferred oral preventive",
+     "style": "body",
+     "bbox": [
+      92.0,
+      312.96,
+      502.73,
+      324.76
+     ]
+    },
+    {
+     "line_id": "POL-p1-L15",
+     "line": 15,
+     "text": "medication.",
+     "style": "body",
+     "bbox": [
+      92.0,
+      326.56,
+      143.13,
+      338.36
+     ]
+    },
+    {
+     "line_id": "POL-p1-L16",
+     "line": 16,
+     "text": "(c) The trial in (b) was ineffective or was discontinued because of intolerable adverse effects.",
+     "style": "body",
+     "bbox": [
+      92.0,
+      343.16,
+      501.61,
+      354.96
+     ]
+    },
+    {
+     "line_id": "POL-p1-L17",
+     "line": 17,
+     "text": "(d) The medication is prescribed by, or in consultation with, a neurologist or headache specialist.",
+     "style": "body",
+     "bbox": [
+      92.0,
+      359.76,
+      517.73,
+      371.56
+     ]
+    },
+    {
+     "line_id": "POL-p1-L18",
+     "line": 18,
+     "text": "3.2 Exception. A trial under 3.1(b) is not required when every preferred oral preventive medication is",
+     "style": "body",
+     "bbox": [
+      76.0,
+      376.36,
+      517.85,
+      388.16
+     ]
+    },
+    {
+     "line_id": "POL-p1-L19",
+     "line": 19,
+     "text": "contraindicated for the member and each contraindication is documented.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      389.96,
+      401.71,
+      401.76
+     ]
+    },
+    {
+     "line_id": "POL-p1-L20",
+     "line": 20,
+     "text": "3.3 Renewal. Continued coverage requires documentation of a reduction in monthly migraine days",
+     "style": "body",
+     "bbox": [
+      76.0,
+      406.56,
+      510.64,
+      418.36
+     ]
+    },
+    {
+     "line_id": "POL-p1-L21",
+     "line": 21,
+     "text": "compared with baseline.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      420.16,
+      183.82,
+      431.96
+     ]
+    },
+    {
+     "line_id": "POL-p1-L22",
+     "line": 22,
+     "text": "4. Documentation",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      449.24,
+      159.9,
+      461.04
+     ]
+    },
+    {
+     "line_id": "POL-p1-L23",
+     "line": 23,
+     "text": "Acceptable documentation includes chart notes, a medication history with start and stop dates, and a",
+     "style": "body",
+     "bbox": [
+      76.0,
+      465.84,
+      521.78,
+      477.64
+     ]
+    },
+    {
+     "line_id": "POL-p1-L24",
+     "line": 24,
+     "text": "headache diary or its summary in a chart note.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      479.44,
+      281.64,
+      491.24
+     ]
+    },
+    {
+     "line_id": "POL-p1-L25",
+     "line": 25,
+     "text": "5. Authorization period",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      508.52,
+      184.9,
+      520.32
+     ]
+    },
+    {
+     "line_id": "POL-p1-L26",
+     "line": 26,
+     "text": "Initial authorization is for 12 months.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      525.12,
+      236.07,
+      536.92
+     ]
+    },
+    {
+     "line_id": "POL-p1-L27",
+     "line": 27,
+     "text": "6. Not covered",
+     "style": "heading",
+     "bbox": [
+      76.0,
+      554.2,
+      144.91,
+      566.0
+     ]
+    },
+    {
+     "line_id": "POL-p1-L28",
+     "line": 28,
+     "text": "Use together with another CGRP antagonist for prevention. Use for acute treatment is addressed in a",
+     "style": "body",
+     "bbox": [
+      76.0,
+      570.8,
+      523.43,
+      582.6
+     ]
+    },
+    {
+     "line_id": "POL-p1-L29",
+     "line": 29,
+     "text": "separate policy.",
+     "style": "body",
+     "bbox": [
+      76.0,
+      584.4,
+      146.03,
+      596.2
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "cases": [
+  {
+   "case_id": "A-2048",
+   "title": "Medical necessity appeal: CGRP antagonist for migraine prevention",
+   "scenario": "all_supported",
+   "demo_role": "supporting",
+   "one_line": "Denied for missing proof of prior treatment failure; the record contains all of it.",
+   "expected_recommendation": "appeal_on_stated_basis",
+   "expected_banner": "All 4 requirements under §3.1 are supported by the record. Ready for staff review.",
+   "path": "cases/A-2048"
+  },
+  {
+   "case_id": "B-3117",
+   "title": "Medical necessity appeal: home health after hip fracture surgery",
+   "scenario": "gap_with_alternative_basis",
+   "demo_role": "hero",
+   "one_line": "Denied for missing homebound documentation; the record supports a different policy pathway instead.",
+   "expected_recommendation": "appeal_on_alternative_basis",
+   "expected_banner": "Evidence missing for homebound certification (§3.1(c)). Recommend appealing under §3.3, home-based care in place of a facility admission: 3 of 3 requirements supported.",
+   "path": "cases/B-3117"
+  },
+  {
+   "case_id": "C-4420",
+   "title": "Medical necessity appeal: MRI of the lumbar spine",
+   "scenario": "partial_no_alternative",
+   "demo_role": "supporting",
+   "one_line": "Denied for incomplete conservative therapy; the record shows 4 of 6 weeks and no exception applies.",
+   "expected_recommendation": "obtain_documentation",
+   "expected_banner": "Evidence incomplete for §3.1(b): 4 of 6 weeks of physical therapy documented. No alternative basis is supported by this record. Obtain documentation for the remaining 2 weeks before appealing.",
+   "path": "cases/C-4420"
+  }
+ ]
+}
