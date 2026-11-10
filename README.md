@@ -1,7 +1,7 @@
 # Appealio demo kit
 
-[![Website](https://img.shields.io/badge/Website-Intro_Page-blue?style=for-the-badge&logo=github-pages)](https://bai1026.github.io/Hack-a-Startup/)
-[![Demo Page](https://img.shields.io/badge/Website-Intro_Page-blue?style=for-the-badge&logo=github-pages)](https://bai1026.github.io/Hack-a-Startup/?autoplay=45)
+[![Website](https://img.shields.io/badge/Website-Website-blue?style=for-the-badge&logo=github-pages)](https://bai1026.github.io/Hack-a-Startup/)
+[![Demo Page](https://img.shields.io/badge/Website-Demo_Page-green?style=for-the-badge&logo=github-pages)](https://bai1026.github.io/Hack-a-Startup/?autoplay=45)
 
 
 
