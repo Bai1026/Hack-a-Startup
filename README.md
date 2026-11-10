@@ -1,6 +1,6 @@
 # Appealio demo kit
 
-[![Website](https://img.shields.io/badge/Website-Intro_Page-blue?style=for-the-badge&logo=github-pages)](https://6r9lpk83-5173.use.devtunnels.ms/)
+[![Website](https://img.shields.io/badge/Website-Intro_Page-blue?style=for-the-badge&logo=github-pages)](https://bai1026.github.io/Hack-a-Startup/)
 
 Synthetic cases, an answer key, and a validator for building the Appealio demo.
 Start with `PLAN.md`.
